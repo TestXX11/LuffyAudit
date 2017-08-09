@@ -1,5 +1,6 @@
 __author__ = 'Administrator'
 from django.contrib.auth import authenticate
+import getpass
 
 
 class UserShell(object):
@@ -15,6 +16,7 @@ class UserShell(object):
         while count < 3:
             username = input("username:").strip()
             password = input("password:").strip()
+            password = getpass
             user = authenticate(username=username,password=password)
             #None 代表认证不成功
             #user object ，认证对象 ,user.name

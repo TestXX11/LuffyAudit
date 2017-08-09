@@ -61,6 +61,7 @@ class HostUserBind(models.Model):
 
 class AuditLog(models.Model):
     """审计日志"""
+    audit_log=models.TextField()
 
 
 class Account(models.Model):
