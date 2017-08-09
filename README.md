@@ -16,7 +16,7 @@
 4. 架构设计
 5. 开发
 
-** Django :the framework for perfectionist with deadlines! **
+**Django :the framework for perfectionist with deadlines!**
 
 # 知识点:
 - 堡垒机表结构
