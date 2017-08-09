@@ -102,4 +102,4 @@ ENV/
 
 
 #my project
-migrations/
+audit/migrations/
