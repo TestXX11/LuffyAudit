@@ -50,17 +50,17 @@ class UserShell(object):
                     choice = int(choice)            # 强转
                     host_bind_list = None           # 主机列表
                     if choice >= 0 and choice < len(host_groups):
-                        selected_group = host_groups[choice]
+                        selected_group = host_groups[choice]        # 通过索引取用户选择的组
                         host_bind_list = selected_group.host_user_binds.all()
                     elif choice == len(host_groups):  # 选择的未分组机器
                         # selected_group = self.user.account.host_user_binds.all()
                         host_bind_list = self.user.account.host_user_binds.all()
                     if host_bind_list:
-                        while True:
+                        while True:                     # 列出主机索引,主机地址
                             for index, host in enumerate(host_bind_list):
                                 print("%s.\t%s" % (index, host,))
                             choice2 = input("select host>:").strip()
-                            if choice2.isdigit():
+                            if choice2.isdigit():       # 选择了某台主机
                                 choice2 = int(choice2)
                                 if choice2 >= 0 and choice2 < len(host_bind_list):
                                     selected_host = host_bind_list[choice2]
