@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e6886f2-ede5-4789-bafa-65b2009626df" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit_shell.py" afterPath="$PROJECT_DIR$/audit_shell.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/少说话多做事.txt" afterPath="$PROJECT_DIR$/少说话多做事.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audit_shell.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audit_shell.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit_shell.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
@@ -93,6 +93,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="少说话多做事.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/少说话多做事.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/audit/backend/user_interactive.py" />
         <option value="$PROJECT_DIR$/audit/models.py" />
         <option value="$PROJECT_DIR$/audit_shell.py" />
+        <option value="$PROJECT_DIR$/少说话多做事.txt" />
       </list>
     </option>
   </component>
@@ -554,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/少说话多做事.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/audit/backend/user_interactive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -577,6 +580,14 @@
           <folding>
             <element signature="e#30#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/少说话多做事.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
