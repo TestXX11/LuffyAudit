@@ -5,8 +5,14 @@
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$" />
         <option name="settingsModule" value="LuffyAudit/settings.py" />
+<<<<<<< HEAD
         <option name="manageScript" value="$MODULE_DIR$/manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
+=======
+        <option name="manageScript" value="manage.py" />
+        <option name="environment" value="&lt;map/&gt;" />
+        <option name="commandsToSkip" value="" />
+>>>>>>> a8f2fd5d78718d8b491b7258f595594c7b9253a4
       </configuration>
     </facet>
   </component>
