@@ -1,5 +1,4 @@
-__author__ = 'Administrator'
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate   #django 自带认证
 
 
 class UserShell(object):
