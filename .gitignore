@@ -96,6 +96,7 @@ ENV/
 
 # mkdocs documentation
 /site
+/audit/migrations/
 
 # mypy
 .mypy_cache/
