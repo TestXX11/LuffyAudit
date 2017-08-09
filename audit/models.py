@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import  User
 # Create your models here.
 
-
 class IDC(models.Model):
     name = models.CharField(max_length=64,unique=True)
     def __str__(self):
@@ -69,7 +68,6 @@ class Account(models.Model):
     2. 继承
     user.account.host_user_bind
     """
-
     user = models.OneToOneField(User)
     name = models.CharField(max_length=64)
 
