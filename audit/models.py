@@ -74,3 +74,11 @@ class Account(models.Model):
     host_user_binds = models.ManyToManyField("HostUserBind",blank=True)
     host_groups = models.ManyToManyField("HostGroup",blank=True)
 
+class SessionLog(models.Model):
+    account = models.ForeignKey("Account")
+    host_user_bind = models.ForeignKey("HostUserBind")
+    start_date = models.DateTimeField(auto_now_add=True)
+    end_date = models.DateTimeField(blank=True,null=True)
+
+    def __str__(self):
+        return "%s-%s" %(self.account,self.host_user_bind)

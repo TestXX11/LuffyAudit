@@ -1,5 +1,6 @@
 from django.contrib.auth import authenticate
 from django.conf import settings
+from audit import models
 import subprocess
 import time
 
@@ -17,6 +18,7 @@ class UserShell(object):
             if not userinfo:
                 count+=1
                 continue
+            self.user = userinfo
             user_host_group = userinfo.account.host_groups.all()
             user_host_binds = []
             while True:
@@ -47,12 +49,19 @@ class UserShell(object):
                                     password = user_host_binds[int(choices)].host_user.password
                                     host_ip = user_host_binds[int(choices)].host.ip_addr
                                     host_port = user_host_binds[int(choices)].host.port
-
+                                    session_log = models.SessionLog.objects.create(account=userinfo.account
+                                                                                   ,host_user_bind= user_host_binds[int(choices)],
+                                                                                   )
                                     onlyid = time.time()
-                                    popen_cmd = "/bin/sh %s %s"%(settings.TRACKER_PATH,onlyid)
+                                    popen_cmd = "/bin/sh %s %s %s"%(settings.TRACKER_PATH,onlyid,session_log.id)
                                     res = subprocess.Popen(popen_cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
                                     cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -Z %s -o StrictHostKeyChecking=no"%(password,username,host_ip,host_port,onlyid)
                                     subprocess.run(cmd,shell=True)
+                                    # account
+                                    # host_user
+                                    # start_date
+                                    # end_date
+
                             elif (choices == "b"):
                                 break
                 elif(choices=="b"):
