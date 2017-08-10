@@ -16,7 +16,7 @@ class UserShell(object):
             username = input("username:").strip()
             password = input("password:").strip()
             user = authenticate(username=username,password=password)
-            #None 代表认证不成功
+            #None 代表认证不功成功
             #user object ，认证对象 ,user.name
             if not user:
                 count += 1
