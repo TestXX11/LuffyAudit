@@ -22,7 +22,8 @@ class Host(models.Model):
         return "%s-%s" %(self.hostname,self.ip_addr)
 
 class HostGroup(models.Model):
-    """主机组"""
+    """主机组
+    """
     name = models.CharField(max_length=64,unique=True)
     host_user_binds  = models.ManyToManyField("HostUserBind")
     def __str__(self):
