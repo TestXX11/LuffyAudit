@@ -1,16 +1,13 @@
 __author__ = 'Administrator'
 from django.contrib.auth import authenticate
 
-
 class UserShell(object):
     """用户登录堡垒机后的shell"""
-
     def __init__(self,sys_argv):
         self.sys_argv = sys_argv
         self.user = None
 
     def auth(self):
-
         count = 0
         while count < 3:
             username = input("username:").strip()
@@ -29,7 +26,6 @@ class UserShell(object):
 
     def start(self):
         """启动交互程序"""
-
         if self.auth():
             #print(self.user.account.host_user_binds.all()) #select_related()
             while True:
@@ -37,7 +33,6 @@ class UserShell(object):
                 for index,group in enumerate(host_groups):
                     print("%s.\t%s[%s]"%(index,group,group.host_user_binds.count()))
                 print("%s.\t未分组机器[%s]"%(len(host_groups),self.user.account.host_user_binds.count()))
-
                 choice = input("select group>:").strip()
                 if choice.isdigit():
                     choice = int(choice)
@@ -60,5 +55,3 @@ class UserShell(object):
                                     print("selected host",selected_host)
                             elif choice2 == 'b':
                                 break
-
-
