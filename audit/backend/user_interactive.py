@@ -1,6 +1,8 @@
 __author__ = 'Administrator'
+import subprocess,random,string
 from django.contrib.auth import authenticate
-
+from django.conf import settings
+from LuffyAudit.audit import models
 
 class UserShell(object):
     """用户登录堡垒机后的shell"""
@@ -58,7 +60,29 @@ class UserShell(object):
                                 if choice2 >=0 and choice2 < len(host_bind_list):
                                     selected_host = host_bind_list[choice2]
                                     print("selected host",selected_host)
+                                    s=string.ascii_lowercase + string.digits
+                                    random_tag="".join(random.sample(s,10))
+                                    session_obj=models.SessionLog.objects.create(account=self.user.account,host_user_bind=selected_host)
+                                    cmd="sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHosrKeyChecking=no -Z %s"%\
+                                        (selected_host.host_user.password,selected_host.host_user.username,selected_host.host.ip_addr,selected_host.host.port,random_tag)
+                                    session_tracker_script="/bin/sh %s %s %s"%(settings.SESSION_TRACKER_SERIPT,random_tag,session_obj.id)
+                                    session_tracker_obj=subprocess.Popen(session_tracker_script,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                                    ssh_channel=subprocess.run(cmd,shell=True)
+                                    print(session_tracker_obj.stdout.read(),session_tracker_obj.stderr.read())
                             elif choice2 == 'b':
                                 break
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

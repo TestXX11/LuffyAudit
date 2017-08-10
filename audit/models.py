@@ -62,6 +62,13 @@ class HostUserBind(models.Model):
 class AuditLog(models.Model):
     """审计日志"""
 
+class SessionLog(models.Model):
+    account=models.ForeignKey('Account')
+    host_user_bind=models.ForeignKey('HostUserBind')
+    start_date=models.DateTimeField(auto_now_add=True)
+    end_date=models.DateTimeField(blank=True,null=True)
+    def __str__(self):
+        return "%s-%s"%(self.account,self.host_user_bind)
 
 class Account(models.Model):
     """堡垒机账户
@@ -69,10 +76,8 @@ class Account(models.Model):
     2. 继承
     user.account.host_user_bind
     """
-
     user = models.OneToOneField(User)
     name = models.CharField(max_length=64)
-
     host_user_binds = models.ManyToManyField("HostUserBind",blank=True)
     host_groups = models.ManyToManyField("HostGroup",blank=True)
 
