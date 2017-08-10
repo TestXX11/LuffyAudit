@@ -7,7 +7,7 @@
 for i  in $(seq 1 30);do
    echo $i $1
    #cmd="ps -ef |grep qht6v9ez2s |grep -v sshpass |grep -v grep |awk '{print $2}'
-   process_id=`ps -ef |grep $1 |grep -v sshpass |grep -v grep | grep -v 'session_tracker.sh' |awk '{print $2}'` # run cmd and set the result to variable cmd
+   process_id=`ps -ef |grep $1 |grep -v sshpass |grep -v grep | grep -v 'tracker.sh' |awk '{print $2}'`
    echo "process:  $process_id"
    if [ ! -z "$process_id"  ];then
 	echo 'start run strace....'
