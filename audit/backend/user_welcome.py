@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate
-import os,django,sys
+import subprocess
 
 class UserShell(object):
     def __init__(self,sys_argv):
@@ -41,13 +41,12 @@ class UserShell(object):
                             if (str(choices).isdigit()):
                                 if (int(choices) >= 0 and int(choices) < len(user_host_binds)):
                                     print("you select: %s" % (user_host_binds[int(choices)]))
+                                    cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHostKeyChecking=no"%("angela891022","root","192.168.30.130","22")
+                                    subprocess.run(cmd)
                             elif (choices == "b"):
                                 break
                 elif(choices=="b"):
                     break
 
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "LuffyAudit.settings")
-django.setup()#手动注册django所有的APP
-us = UserShell(sys.argv)
-us.welcome()
+
