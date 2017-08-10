@@ -7,7 +7,10 @@
         <option name="settingsModule" value="LuffyAudit/settings.py" />
         <option name="manageScript" value="manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
+<<<<<<< HEAD
         <option name="commandsToSkip" value="" />
+=======
+>>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
       </configuration>
     </facet>
   </component>
@@ -18,8 +21,16 @@
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
+<<<<<<< HEAD
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+=======
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/templates" />
+      </list>
+    </option>
+>>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
   </component>
 </module>
