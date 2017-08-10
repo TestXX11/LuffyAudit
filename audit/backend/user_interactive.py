@@ -62,9 +62,15 @@ class UserShell(object):
                                     s = string.ascii_lowercase +string.digits
                                     random_tag = ''.join(random.sample(s,10))
                                     session_obj = models.SessionLog.objects.create(account=self.user.account,host_user_bind=selected_host)
-                                     
+                                    print(selected_host.host_user.password) 
+                                    print(selected_host.host_user.username) 
+                                    print(selected_host.host.ip_addr) 
+                                    print(selected_host.host.port)
+                                    print(random_tag) 
                                     cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHostKeyChecking=no -Z %s" %(selected_host.host_user.password,selected_host.host_user.username,selected_host.host.ip_addr,selected_host.host.port ,random_tag)
-                                    #start strace ,and sleep 1 random_tag, session_obj.id
+                                    print(cmd)
+                                    print(settings.SESSION_TRACKER_SCRIPT,random_tag,session_obj.id)
+				    #start strace ,and sleep 1 random_tag, session_obj.id
                                     session_tracker_script = "/bin/sh %s %s %s " %(settings.SESSION_TRACKER_SCRIPT,random_tag,session_obj.id)
                                     
                                     session_tracker_obj =subprocess.Popen(session_tracker_script, shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
