@@ -1,10 +1,761 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6203e540-0d7d-47ea-8670-0e8b70d25fc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme" afterPath="$PROJECT_DIR$/readme" />
+=======
+    <list default="true" id="fc46bded-6bcb-433c-bc8c-b0f7e5f65365" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/CREDITS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/main.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06.tar.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/sshpass" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/.skipped-commit-ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/migrations/0002_auto_20170810_0412.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/migrations/0003_sessionlog.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/COPYING" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/ChangeLog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LuffyAudit.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/Makefile.am" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/Makefile.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/Makefile.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/Makefile.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/Makefile.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/Makefile.inc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/bitmap/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/conversion/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/match/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/utf8/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/NEWS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/OVERVIEW" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.agent" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.certkeys" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.chacha20poly1305" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.key" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.krl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL.mux" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/PROTOCOL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.dns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.platform" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.privsep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/README.regress" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README.tun" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/solaris/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/TODO" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/aclocal.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/aclocal.m4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/addrmatch.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/addrmatch.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-getpeereid.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-pkcs11.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-ptrace.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent-timeout.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/agent.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/allow-deny-users.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/arc4random.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/atomicio.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/atomicio.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit-bsm.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit-linux.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/audit.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-bsdauth.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-krb5.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-options.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-options.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-pam.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-pam.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-passwd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-rhosts.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-shadow.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-sia.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-sia.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth-skey.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-chall.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-gss.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-hostbased.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-kbdint.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-none.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-passwd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2-pubkey.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/auth2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfd.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/authfile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/banner.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/base64.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/base64.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/basename.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bcrypt_pbkdf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bindresvport.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bitmap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bitmap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/blf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/blocks.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/blowfish.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/broken-pipe.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/brokenkeys.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-asprintf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-closefrom.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cray.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-err.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-getpeereid.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-misc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-misc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-openpty.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-poll.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-poll.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-snprintf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufaux.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufbn.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/bufec.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buffer.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buffer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/buildbff.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/buildpkg.sh.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/canohost.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/canohost.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-file.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-hostkey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cert-userkey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfginclude.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfgmatch.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cfgparse.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/chacha.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/chacha.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/chacha_private.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/channels.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/channels.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/charclass.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/check-perm.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-3des1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aes.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aesctr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-aesctr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-bf1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-chachapoly.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-chachapoly.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher-ctr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/cipher-speed.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cipher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/cleanup.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/clientloop.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/clientloop.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/closefromtest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/compat.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/compile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/conch-ciphers.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.guess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.h.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/config.h.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/config.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/config.status" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/config.sub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/configure.ac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/configure.ac" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/configure" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/configure" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/connect-privsep.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/connect.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crc32.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crc32.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/crypto_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/daemon.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/deattack.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/deattack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/defines.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/depcomp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dh.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dh.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dhgex.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest-libc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest-openssl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/digest.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/dirname.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dispatch.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dispatch.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dns.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/dns.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.g" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.priv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_3.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_4.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_5.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_6.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dsa_ssh2.prv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dsa_ssh2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/dynamic-forward.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.curve" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.priv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.curve" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.priv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_3.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_4.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_5.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_6.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ed25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_3.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_4.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_5.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_6.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/egd.rc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/egd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/entropy.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/entropy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/envpass.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/exit-status.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/explicit_bzero.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fatal.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fe25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fe25519.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/findssl.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixalgorithms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixpaths" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/fixprogs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/fmt_scaled.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forcecommand.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forward-control.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/forwarding.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/fuzz.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ge25519_base.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getcwd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getgrouplist.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getopt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getopt_long.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname-ldns.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/glob.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/glob.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.csh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/gnome-ssh-askpass1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/gnome-ssh-askpass2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/groupaccess.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/groupaccess.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-genr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-serv-krb5.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/gss-serv.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hash.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hmac.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hmac.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/host-expand.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hostfile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/hostfile.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/hostkey-agent.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/hostkey-rotate.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/includes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_aton.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_ntoa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/inet_ntop.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/install-sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/install-sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/integrity.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/inventory.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kex.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kex.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519c.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexc25519s.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdh.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdhc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexdhs.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdh.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdhc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexecdhs.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/misc/kexfuzz/kexfuzz.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgex.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgexc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/kexgexs.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/kextype.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/key-options.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/key.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/key.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-change.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-convert.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-knownhosts.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keygen-moduli.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keys-command.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keyscan.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/keytype.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/kludge-fd_set.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/known_hosts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/krl.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/krl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/krl.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/limit-keytype.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/localcommand.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/log.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/log.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/login-timeout.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/loginrec.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/loginrec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/logintest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mac.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mac.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/.deps/main.Po" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/match.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/match.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md-sha256.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/md5.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/md5.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md5crypt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/md5crypt.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mdoc2man.awk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/misc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/misc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/missing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mkinstalldirs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/mktemp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/mktestdata.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/mktestdata.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/modpipe.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/moduli.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/moduli" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_fdpass.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_fdpass.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_wrap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/monitor_wrap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/msg.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/msg.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/multiplex.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/multipubkey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/mux.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/myproposal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan.ms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/nchan2.ms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/netcat.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opacket.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opacket.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openbsd-compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openssh.xml.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/opensshd.init.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openssl-compat.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/openssl-compat.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/opensslvertest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/packet.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/packet.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/aix/pam.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/pathnames.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/pkcs11.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform-pledge.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform-tracing.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/platform.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/poly1305.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/poly1305.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-aix.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-aix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-irix.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-irix.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-linux.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-linux.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-solaris.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-solaris.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-tun.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-tun.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-uw.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/port-uw.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/portnum.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/principals-command.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/progressmeter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/progressmeter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proto-mismatch.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proto-version.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/proxy-connect.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-ciphers.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-kex.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/putty-transfer.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/pwcache.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/rc.config.sshd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/rc.sshd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readconf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readconf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/readpass.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/readpassphrase.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/readpassphrase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/reallocarray.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/realpath.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/reconfigure.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/reexec.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rekey.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rijndael.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rijndael.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rmd160.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rmd160.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/rresvport.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rsa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/rsa.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.param.n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.param.n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_3.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_4.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_5.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_6.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.q" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp.bb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.q" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_3.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_4.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_5.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_6.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n_pw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_openssh.prv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_openssh.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/rsa_ssh2.prv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-capsicum.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-darwin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-null.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-pledge.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-rlimit.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-seccomp-filter.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-solaris.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sandbox-systrace.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sc25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sc25519.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/scp-ssh-wrapper.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/scp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/scp.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/servconf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/servconf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/serverloop.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/serverloop.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/session.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/session.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/backend/session_tracker.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/setenv.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/setproctitle.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/setuid-allowed.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-badcmds.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-batch.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-chroot.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-client.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-cmds.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-common.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-common.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-glob.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-glob.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp-perm.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server-main.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sftp.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sftp.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sha2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sigact.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sigact.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/smult_curve25519_ref.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/snprintftest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-add.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-agent.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-client.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-keygen.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com-sftp.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh-com.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/ssh-copy-id.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/ssh-copy-id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-dss.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-ecdsa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-ed25519.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-gss.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/ssh-host-config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keygen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keyscan.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-keysign.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-client.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11-helper.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-pkcs11.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-rsa.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh-sandbox.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/ssh-user-config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh1.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh2.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/ssh2putty.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_api.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_api.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config.5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssh_config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-getput-basic.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-getput-crypto.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf-misc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshbuf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sshcfgparse.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshconnect2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/cygwin/sshd-inetd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/sshd-log-wrapper.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.init.old" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.init" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/sshd.pam.freebsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/sshd.pam.generic" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.pam.old" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/redhat/sshd.pam" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/sshd.rc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/hpux/sshd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config.5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshd_config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssherr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ssherr.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshkey.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshkey.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshlogin.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshlogin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/sshpass.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshpty.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshpty.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/sshtty.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sshpass-1.06/stamp-h1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/stderr-after-eof.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/stderr-data.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strcasestr.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/strduptest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strlcat.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strlcpy.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strmode.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strnlen.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strptime.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strsep.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoll.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtonum.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/regress/strtonumtest.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoul.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/strtoull.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/survey.sh.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sys-queue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/sys-tree.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/contrib/suse/sysconfig.ssh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t11.ok" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t4.ok" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/t5.ok" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/test-exec.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_file.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_fuzz.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/test_iterate.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/test_kex.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fixed.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fuzz.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_basic.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_crypto.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_misc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/test_sshkey.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/bitmap/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/conversion/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/hostkeys/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/kex/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/match/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshbuf/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/sshkey/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/unittests/utf8/tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/timingsafe_bcmp.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/transfer.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/try-ciphers.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ttymodes.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/ttymodes.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uidswap.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uidswap.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/umac.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/umac.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/utf8.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/utf8.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uuencode.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/uuencode.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/valgrind-unit.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/verify.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/version.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/vis.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/vis.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/openbsd-compat/xcrypt.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/xmalloc.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/xmalloc.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/openssh-7.5p1/regress/yes-head.sh" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\LuffyAudi2\db.sqlite3" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/admin.py" afterPath="$PROJECT_DIR$/audit/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit_shell.py" afterPath="$PROJECT_DIR$/audit_shell.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/models.py" afterPath="$PROJECT_DIR$/audit/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuffyAudit/settings.py" afterPath="$PROJECT_DIR$/LuffyAudit/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/backend/user_interactive.py" afterPath="$PROJECT_DIR$/audit/backend/user_interactive.py" />
+>>>>>>> master
     </list>
+    <ignored path="LuffyAudit.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +763,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="LuffyAudit" />
+  </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/models.py">
@@ -60,28 +819,41 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf />
+>>>>>>> master
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/readme" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="60" />
     <option name="y" value="23" />
     <option name="width" value="1276" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+>>>>>>> master
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -94,8 +866,6 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scratches" />
@@ -107,8 +877,14 @@
               <option name="myItemId" value="LuffyAudit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="LuffyAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LuffyAudi2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -150,20 +926,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\LuffyAudit\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\LuffyAudit\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.LuffyAudit">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -184,19 +958,6 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -269,39 +1030,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="LuffyAudit" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -321,6 +1061,58 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+=======
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LuffyAudit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+>>>>>>> master
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LuffyAudit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -332,9 +1124,41 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LuffyAudit" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LuffyAudit" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="LuffyAudit" type="Python.DjangoServer" factoryName="Django server">
@@ -342,7 +1166,6 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="LuffyAudit.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -365,20 +1188,18 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.LuffyAudit" />
     </list>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6203e540-0d7d-47ea-8670-0e8b70d25fc3" name="Default" comment="" />
-      <created>1502264764448</created>
+      <changelist id="fc46bded-6bcb-433c-bc8c-b0f7e5f65365" name="Default" comment="" />
+      <created>1502325261963</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1502264764448</updated>
+      <updated>1502325261963</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="60" y="23" width="1276" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -401,10 +1222,31 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29449838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49146757" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45392492" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> master
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -413,6 +1255,7 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/audit/models.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -469,4 +1312,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> master
 </project>
