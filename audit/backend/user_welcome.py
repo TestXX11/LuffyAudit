@@ -1,5 +1,7 @@
 from django.contrib.auth import authenticate
+from django.conf import settings
 import subprocess
+import time
 
 class UserShell(object):
     def __init__(self,sys_argv):
@@ -45,8 +47,11 @@ class UserShell(object):
                                     password = user_host_binds[int(choices)].host_user.password
                                     host_ip = user_host_binds[int(choices)].host.ip_addr
                                     host_port = user_host_binds[int(choices)].host.port
-                                    cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHostKeyChecking=no"%(password,username,host_ip,host_port)
-                                    
+
+                                    onlyid = time.time()
+                                    popen_cmd = "/bin/sh %s %s"%(settings.TRACKER_PATH,onlyid)
+                                    res = subprocess.Popen(popen_cmd,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+                                    cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -Z %s -o StrictHostKeyChecking=no"%(password,username,host_ip,host_port,onlyid)
                                     subprocess.run(cmd,shell=True)
                             elif (choices == "b"):
                                 break
