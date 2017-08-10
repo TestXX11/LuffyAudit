@@ -62,6 +62,7 @@ class HostUserBind(models.Model):
 class AuditLog(models.Model):
     """审计日志"""
     audit_log=models.TextField()
+    log_time=models.DateTimeField(auto_now_add=True,null=True,blank=True)
 
 
 class Account(models.Model):
