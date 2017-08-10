@@ -41,9 +41,13 @@ class UserShell(object):
                             if (str(choices).isdigit()):
                                 if (int(choices) >= 0 and int(choices) < len(user_host_binds)):
                                     print("you select: %s" % (user_host_binds[int(choices)]))
-                                    cmd = "ls"
-                                    # cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHostKeyChecking=no"%("angela891022","root","192.168.30.130","22")
-                                    subprocess.run(cmd)
+                                    username = user_host_binds[int(choices)].host_user.username
+                                    password = user_host_binds[int(choices)].host_user.password
+                                    host_ip = user_host_binds[int(choices)].host.ip_addr
+                                    host_port = user_host_binds[int(choices)].host.port
+                                    cmd = "sshpass -p %s /usr/local/openssh/bin/ssh %s@%s -p %s -o StrictHostKeyChecking=no"%(password,username,host_ip,host_port)
+                                    
+                                    subprocess.run(cmd,shell=True)
                             elif (choices == "b"):
                                 break
                 elif(choices=="b"):
