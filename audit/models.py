@@ -61,6 +61,21 @@ class HostUserBind(models.Model):
 
 class AuditLog(models.Model):
     """审计日志"""
+    session = models.ForeignKey("SessionLog")
+    cmd = models.TextField()
+    date = models.DateTimeField(auto_now_add=True)
+    def __str__(self):
+        return "%s-%s" %(self.session,self.cmd)
+
+
+class SessionLog(models.Model):
+    account = models.ForeignKey("Account")
+    host_user_bind = models.ForeignKey("HostUserBind")
+    start_date = models.DateTimeField(auto_now_add=True)
+    end_date = models.DateTimeField(blank=True,null=True)
+
+    def __str__(self):
+        return "%s-%s" %(self.account,self.host_user_bind)
 
 class SessionLog(models.Model):
     account = models.ForeignKey("Account")
