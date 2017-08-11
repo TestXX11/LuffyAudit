@@ -58,6 +58,9 @@ class HostUserBind(models.Model):
     class Meta:
         unique_together = ('host','host_user')
 
+class SessionLog(models.Model):
+    account = models.ForeignKey('Account')
+    host_user_bind=models.CharField(max_length=64)
 
 class AuditLog(models.Model):
     """审计日志"""
