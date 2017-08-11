@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="2c2d88da-4e92-49d9-a651-5dff56da57f7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/backend/user_interactive.py" afterPath="$PROJECT_DIR$/audit/backend/user_interactive.py" />
     </list>
@@ -751,11 +752,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/models.py" afterPath="$PROJECT_DIR$/audit/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuffyAudit/settings.py" afterPath="$PROJECT_DIR$/LuffyAudit/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/backend/user_interactive.py" afterPath="$PROJECT_DIR$/audit/backend/user_interactive.py" />
+=======
+    <list default="true" id="fc46bded-6bcb-433c-bc8c-b0f7e5f65365" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     </list>
     <ignored path="LuffyAudit.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -764,13 +772,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -819,12 +832,25 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
               <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+=======
+  <component name="FavoritesManager">
+    <favorites_list name="LuffyAudit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ssh.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/openssh-7.5p1/ssh.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.685817">
+              <caret line="221" column="9" selection-start-line="221" selection-start-column="9" selection-end-line="221" selection-end-column="9" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+<<<<<<< HEAD
 =======
   <component name="FavoritesManager">
     <favorites_list name="LuffyAudit" />
@@ -832,10 +858,13 @@
   <component name="FileEditorManager">
     <leaf />
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -850,21 +879,29 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
 =======
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
   <component name="NamedScopeManager">
     <order />
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="width" value="1616" />
     <option name="height" value="876" />
 =======
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     <option name="width" value="1296" />
     <option name="height" value="744" />
   </component>
@@ -877,7 +914,10 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -891,6 +931,7 @@
       <autoscrollFromSource />
       <sortByType />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
 =======
@@ -898,6 +939,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+=======
+    </navigator>
+    <panes>
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -907,10 +952,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="LuffyAudit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -921,10 +969,13 @@
               <option name="myItemId" value="LuffyAudit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -936,6 +987,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="audit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -961,11 +1013,19 @@
 =======
               <option name="myItemId" value="LuffyAudi2" />
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openssh-7.5p1" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -974,6 +1034,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
 =======
+=======
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -987,7 +1053,10 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\LuffyAudit\src" />
     </key>
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   </component>
   <component name="RunManager" selected="Django server.LuffyAudit">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -1011,6 +1080,7 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -1019,6 +1089,8 @@
     </configuration>
 =======
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -1092,6 +1164,7 @@
       <method />
     </configuration>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <configuration default="true" type="Tox" factoryName="Tox">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1126,6 +1199,9 @@
       <pass-parent-envs>true</pass-parent-envs>
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
       <envs />
+=======
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -1266,6 +1342,7 @@
     </list>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -1277,6 +1354,8 @@
       <option name="presentableId" value="Default" />
       <updated>1502266627905</updated>
 =======
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1284,11 +1363,15 @@
       <created>1502325261963</created>
       <option name="number" value="Default" />
       <updated>1502325261963</updated>
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
@@ -1352,16 +1435,40 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45392492" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15614887" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21160409" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982457" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1370,6 +1477,7 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/audit/models.py">
@@ -1528,19 +1636,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/openssh-7.5p1/sftp-server.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/audit/backend/user_interactive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/openssh-7.5p1/ssh.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.685817">
+          <caret line="221" column="9" selection-start-line="221" selection-start-column="9" selection-end-line="221" selection-end-column="9" />
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
           <folding />
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
 =======
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
 </project>

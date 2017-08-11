@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.1 (C:\Python36\python.exe)" project-jdk-type="Python SDK" />
 =======
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -36,5 +39,8 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.2 (D:\Program Files (x86)\Python35-32\python.exe)" project-jdk-type="Python SDK" />
+<<<<<<< HEAD
 >>>>>>> 6787feec0ae5c38b451ac03992e228e8c7c39523
+=======
+>>>>>>> 33d03b7dc5962dd28459f0326df4f90894757d30
 </project>
