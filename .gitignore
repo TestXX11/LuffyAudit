@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 audit/migirations/
 .idea/
-*.sqlite3
+
