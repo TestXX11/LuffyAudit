@@ -72,14 +72,12 @@ class SessionLog(models.Model):
 class AuditLog(models.Model):
     """审计日志"""
 
-    class AuditLog(models.Model):
-        """审计日志"""
-        session = models.ForeignKey('SessionLog')
-        cmd = models.TextField()
-        date = models.DateTimeField(auto_now_add=True)
+    session = models.ForeignKey('SessionLog')
+    cmd = models.TextField()
+    date = models.DateTimeField(auto_now_add=True)
 
-        def __str__(self):
-            return "%s-%s" % (self.session, self.date)
+    def __str__(self):
+        return "%s-%s" % (self.session, self.date)
 
 
 class SessionLog(models.Model):
