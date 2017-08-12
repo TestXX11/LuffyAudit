@@ -1,4 +1,7 @@
 #!/bin/bash
+basepath=$(cd 'dirname $0'; pwd)
+echo "basepath........ $basepath ............."
+
 
 for i in $(seq 1 30);do
     echo $i
@@ -6,7 +9,7 @@ for i in $(seq 1 30);do
     echo "process_id: $process_id"
     if [ ! -z "$process_id" ];then
         echo 'start run strace...'
-        sudo strace -fp $process_id -t -o ssh_audit_$2.log;
+        sudo strace -fp $process_id -t -o $basepath/log/ssh_audit_$2.log;
         break;
     fi
     sleep 1
