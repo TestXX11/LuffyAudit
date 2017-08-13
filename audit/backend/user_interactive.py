@@ -2,7 +2,7 @@ __author__ = 'Administrator'
 import subprocess,random,string
 from django.contrib.auth import authenticate
 from django.conf import settings
-from LuffyAudit.audit import models
+from audit import models
 
 class UserShell(object):
     """用户登录堡垒机后的shell"""
