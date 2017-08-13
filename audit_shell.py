@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
-import sys,os
-
+import sys, os
 
 if __name__ == "__main__":
     import django
+
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "LuffyAudit.settings")
-    django.setup() #手动注册django所有的APP
+    django.setup()  # 手动注册django所有的APP
     from audit.backend import user_interactive
+
     obj = user_interactive.UserShell(sys.argv)
     obj.start()

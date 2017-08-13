@@ -32,6 +32,7 @@ from paramiko.py3compat import input
 from audit import models
 
 import paramiko
+
 try:
     import interactive
 except ImportError:
@@ -43,12 +44,12 @@ def agent_auth(transport, username):
     Attempt to authenticate to the given transport using any of the private
     keys available from an SSH agent.
     """
-    
+
     agent = paramiko.Agent()
     agent_keys = agent.get_keys()
     if len(agent_keys) == 0:
         return
-        
+
     for key in agent_keys:
         print('Trying ssh-agent key %s' % hexlify(key.get_fingerprint()))
         try:
@@ -59,60 +60,60 @@ def agent_auth(transport, username):
             print('... nope.')
 
 
-def manual_auth(t,username,passwd):
-#    default_auth = 'p'
-#    auth = input('Auth by (p)assword, (r)sa key, or (d)ss key? [%s] ' % default_auth)
-#    if len(auth) == 0:
-#        auth = default_auth
-#
-#    if auth == 'r':
-#        default_path = os.path.join(os.environ['HOME'], '.ssh', 'id_rsa')
-#        path = input('RSA key [%s]: ' % default_path)
-#        if len(path) == 0:
-#            path = default_path
-#        try:
-#            key = paramiko.RSAKey.from_private_key_file(path)
-#        except paramiko.PasswordRequiredException:
-#            password = getpass.getpass('RSA key password: ')
-#            key = paramiko.RSAKey.from_private_key_file(path, password)
-#        t.auth_publickey(username, key)
-#    elif auth == 'd':
-#        default_path = os.path.join(os.environ['HOME'], '.ssh', 'id_dsa')
-#        path = input('DSS key [%s]: ' % default_path)
-#        if len(path) == 0:
-#            path = default_path
-#        try:
-#            key = paramiko.DSSKey.from_private_key_file(path)
-#        except paramiko.PasswordRequiredException:
-#            password = getpass.getpass('DSS key password: ')
-#            key = paramiko.DSSKey.from_private_key_file(path, password)
-#        t.auth_publickey(username, key)
-#    else:
-#        pw = getpass.getpass('Password for %s@%s: ' % (username, hostname))
+def manual_auth(t, username, passwd):
+    #    default_auth = 'p'
+    #    auth = input('Auth by (p)assword, (r)sa key, or (d)ss key? [%s] ' % default_auth)
+    #    if len(auth) == 0:
+    #        auth = default_auth
+    #
+    #    if auth == 'r':
+    #        default_path = os.path.join(os.environ['HOME'], '.ssh', 'id_rsa')
+    #        path = input('RSA key [%s]: ' % default_path)
+    #        if len(path) == 0:
+    #            path = default_path
+    #        try:
+    #            key = paramiko.RSAKey.from_private_key_file(path)
+    #        except paramiko.PasswordRequiredException:
+    #            password = getpass.getpass('RSA key password: ')
+    #            key = paramiko.RSAKey.from_private_key_file(path, password)
+    #        t.auth_publickey(username, key)
+    #    elif auth == 'd':
+    #        default_path = os.path.join(os.environ['HOME'], '.ssh', 'id_dsa')
+    #        path = input('DSS key [%s]: ' % default_path)
+    #        if len(path) == 0:
+    #            path = default_path
+    #        try:
+    #            key = paramiko.DSSKey.from_private_key_file(path)
+    #        except paramiko.PasswordRequiredException:
+    #            password = getpass.getpass('DSS key password: ')
+    #            key = paramiko.DSSKey.from_private_key_file(path, password)
+    #        t.auth_publickey(username, key)
+    #    else:
+    #        pw = getpass.getpass('Password for %s@%s: ' % (username, hostname))
     t.auth_password(username, passwd)
 
 
 # setup logging
 # paramiko.util.log_to_file('demo.log')
 
-#username = ''
-#if len(sys.argv) > 1:
+# username = ''
+# if len(sys.argv) > 1:
 #    hostname = sys.argv[1]
 #    if hostname.find('@') >= 0:
 #        username, hostname = hostname.split('@')
-#else:
+# else:
 #    hostname = input('Hostname: ')
-#if len(hostname) == 0:
+# if len(hostname) == 0:
 #    print('*** Hostname required.')
 #    sys.exit(1)
-#port = 22
-#if hostname.find(':') >= 0:
+# port = 22
+# if hostname.find(':') >= 0:
 #    hostname, portstr = hostname.split(':')
 #    port = int(portstr)
 
 
 # now connect
-def ssh_session(bind_host_user,user_obj):
+def ssh_session(bind_host_user, user_obj):
     hostname = bind_host_user.host.ip_addr
     port = bind_host_user.host.port
     username = bind_host_user.host_user.username
@@ -124,7 +125,7 @@ def ssh_session(bind_host_user,user_obj):
         print('*** Connect failed: ' + str(e))
         traceback.print_exc()
         sys.exit(1)
-    
+
     try:
         t = paramiko.Transport(sock)
         try:
@@ -132,8 +133,8 @@ def ssh_session(bind_host_user,user_obj):
         except paramiko.SSHException:
             print('*** SSH negotiation failed.')
             sys.exit(1)
-    
-        #return "%s-%s" %(self.session,self.cmd)
+
+        # return "%s-%s" %(self.session,self.cmd)
 
         try:
             keys = paramiko.util.load_host_keys(os.path.expanduser('~/.ssh/known_hosts'))
@@ -143,7 +144,7 @@ def ssh_session(bind_host_user,user_obj):
             except IOError:
                 print('*** Unable to open host keys file')
                 keys = {}
-    
+
         # check server's host key -- this is important.
         key = t.get_remote_server_key()
         if hostname not in keys:
@@ -155,33 +156,33 @@ def ssh_session(bind_host_user,user_obj):
             sys.exit(1)
         else:
             print('*** Host key OK.')
-    
+
         ## get username
-        #if username == '':
+        # if username == '':
         #    default_username = getpass.getuser()
         #    username = input('Username [%s]: ' % default_username)
         #    if len(username) == 0:
         #        username = default_username
-    
-        #agent_auth(t, username)
+
+        # agent_auth(t, username)
         if not t.is_authenticated():
-            manual_auth(t,username, password)
+            manual_auth(t, username, password)
         if not t.is_authenticated():
             print('*** Authentication failed. :(')
             t.close()
             sys.exit(1)
-    
+
         chan = t.open_session()
         chan.get_pty()
         chan.invoke_shell()
         print('*** Here we go!\n')
         session_obj = models.SessionLog.objects.create(account=user_obj.account,
-                                                      host_user_bind = bind_host_user
-                                                      )
-        interactive.interactive_shell(chan,session_obj)
+                                                       host_user_bind=bind_host_user
+                                                       )
+        interactive.interactive_shell(chan, session_obj)
         chan.close()
         t.close()
-    
+
     except Exception as e:
         print('*** Caught exception: ' + str(e.__class__) + ': ' + str(e))
         traceback.print_exc()
@@ -190,5 +191,3 @@ def ssh_session(bind_host_user,user_obj):
         except:
             pass
         sys.exit(1)
-
-

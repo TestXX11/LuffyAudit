@@ -69,12 +69,13 @@ class HostUserBind(models.Model):
 
 class AuditLog(models.Model):
     """审计日志"""
-    session = models.ForeignKey("SessionLog",null=True,blank=True,on_delete=models.CASCADE)
+    session = models.ForeignKey("SessionLog", null=True, blank=True, on_delete=models.CASCADE)
     cmd = models.TextField()
     date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return "%s-%s" %(self.session,self.cmd)
+        return "%s-%s" % (self.session, self.cmd)
+
 
 class SessionLog(models.Model):
     account = models.ForeignKey("Account", on_delete=models.CASCADE, )
