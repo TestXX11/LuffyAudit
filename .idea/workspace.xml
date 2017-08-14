@@ -2,8 +2,1025 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d546ecd9-07a1-415c-a85a-16f7e9d28966" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/11111.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/LuffyAudit/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/LuffyAudit/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/LuffyAudit/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/LuffyAudit/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/audit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/audit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/interactive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/session_tracker.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/ssh_interactive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/backend/user_interactive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/audit_shell.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/db.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/.skipped-commit-ids" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/CREDITS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/LICENCE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/OVERVIEW" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.agent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.certkeys" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.chacha20poly1305" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.key" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.krl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/PROTOCOL.mux" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/README.dns" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/README.platform" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/README.privsep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/README.tun" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/TODO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/addrmatch.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/addrmatch.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/atomicio.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/atomicio.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/atomicio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit-bsm.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit-bsm.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit-linux.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit-linux.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/audit.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-bsdauth.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-bsdauth.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-krb5.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-krb5.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-options.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-options.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-options.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-pam.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-pam.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-pam.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-passwd.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-passwd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-rhosts.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-rhosts.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-shadow.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-shadow.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-sia.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-sia.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-sia.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-skey.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth-skey.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-chall.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-chall.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-gss.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-gss.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-hostbased.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-hostbased.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-kbdint.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-kbdint.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-none.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-none.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-passwd.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-passwd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-pubkey.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2-pubkey.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/auth2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfd.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfd.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfile.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfile.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/authfile.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bitmap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bitmap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bitmap.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/blocks.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/blocks.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufaux.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufaux.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufbn.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufbn.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufec.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/bufec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/buffer.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/buffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/buildpkg.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/buildpkg.sh.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/canohost.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/canohost.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/canohost.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/chacha.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/chacha.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/chacha.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/channels.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/channels.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/channels.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-3des1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-3des1.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-aes.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-aes.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-aesctr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-aesctr.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-aesctr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-bf1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-bf1.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-chachapoly.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-chachapoly.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-chachapoly.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-ctr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher-ctr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cipher.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cleanup.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/cleanup.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/clientloop.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/clientloop.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/clientloop.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/compat.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/compat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/compat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/config.guess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/config.status" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/config.sub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/aix/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/aix/buildbff.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/aix/inventory.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/aix/pam.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/cygwin/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/cygwin/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/cygwin/ssh-host-config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/cygwin/ssh-user-config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/cygwin/sshd-inetd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/findssl.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/gnome-ssh-askpass1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/gnome-ssh-askpass2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/hpux/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/hpux/egd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/hpux/egd.rc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/hpux/sshd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/hpux/sshd.rc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.csh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/gnome-ssh-askpass.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/sshd.init" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/sshd.init.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/sshd.pam" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/redhat/sshd.pam.old" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/solaris/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/ssh-copy-id" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/ssh-copy-id.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/sshd.pam.freebsd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/sshd.pam.generic" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/suse/rc.config.sshd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/suse/rc.sshd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/contrib/suse/sysconfig.ssh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/crc32.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/crc32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/crc32.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/crypto_api.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/deattack.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/deattack.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/deattack.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/defines.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dh.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dh.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/digest-libc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/digest-libc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/digest-openssl.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/digest-openssl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/digest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dispatch.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dispatch.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dispatch.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dns.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dns.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/dns.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ed25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ed25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/entropy.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/entropy.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/entropy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fatal.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fatal.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fe25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fe25519.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fe25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fixalgorithms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fixpaths" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/fixprogs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ge25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ge25519.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ge25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ge25519_base.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/groupaccess.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/groupaccess.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/groupaccess.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-genr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-genr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-serv-krb5.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-serv-krb5.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-serv.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/gss-serv.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hash.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hash.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hmac.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hmac.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hmac.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hostfile.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hostfile.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/hostfile.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/includes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kex.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kex.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kex.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519c.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519c.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519s.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexc25519s.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdh.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdhc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdhc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdhs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexdhs.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdh.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdhc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdhc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdhs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexecdhs.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgex.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgex.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgexc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgexc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgexs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/kexgexs.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/key.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/key.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/key.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/krl.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/krl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/krl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/libssh.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/log.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/log.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/log.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/loginrec.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/loginrec.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/loginrec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/logintest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mac.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mac.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mac.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/match.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/match.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/match.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/md-sha256.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/md-sha256.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/md5crypt.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/md5crypt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/md5crypt.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mdoc2man.awk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/misc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/misc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/misc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mkinstalldirs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/moduli.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_fdpass.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_fdpass.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_fdpass.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_wrap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/monitor_wrap.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/msg.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/msg.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/msg.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mux.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/mux.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/myproposal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/nchan.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/nchan.ms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/nchan.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/nchan2.ms" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/opacket.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/opacket.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/opacket.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/arc4random.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/arc4random.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/base64.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/base64.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/basename.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/basename.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bcrypt_pbkdf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bcrypt_pbkdf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bindresvport.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bindresvport.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/blf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/blowfish.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/blowfish.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-asprintf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-asprintf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-closefrom.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-closefrom.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cray.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cray.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cray.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-cygwin_util.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-err.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-err.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-getpeereid.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-getpeereid.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-misc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-misc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-misc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-nextstep.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-openpty.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-openpty.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-poll.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-poll.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-poll.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-setres_id.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-snprintf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-snprintf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-statvfs.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/bsd-waitpid.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/chacha_private.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/charclass.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/daemon.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/daemon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/dirname.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/dirname.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/explicit_bzero.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/explicit_bzero.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/fake-rfc2553.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/fmt_scaled.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/fmt_scaled.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getcwd.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getcwd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getgrouplist.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getgrouplist.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getopt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getopt_long.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getopt_long.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getrrsetbyname-ldns.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getrrsetbyname-ldns.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/getrrsetbyname.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/glob.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/glob.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/glob.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_aton.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_aton.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_ntoa.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_ntoa.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_ntop.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/inet_ntop.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/kludge-fd_set.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/kludge-fd_set.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/libopenbsd-compat.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/md5.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/md5.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/md5.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/mktemp.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/mktemp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/openbsd-compat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/openssl-compat.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/openssl-compat.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/openssl-compat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-aix.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-aix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-aix.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-irix.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-irix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-irix.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-linux.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-linux.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-linux.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-solaris.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-solaris.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-solaris.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-tun.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-tun.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-tun.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-uw.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-uw.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/port-uw.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/pwcache.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/pwcache.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/readpassphrase.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/readpassphrase.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/readpassphrase.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/reallocarray.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/reallocarray.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/realpath.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/realpath.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/closefromtest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/opensslvertest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/snprintftest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/strduptest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/regress/strtonumtest.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/rmd160.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/rmd160.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/rmd160.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/rresvport.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/rresvport.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/setenv.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/setenv.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/setproctitle.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/setproctitle.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha1.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha1.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha2.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sha2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sigact.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sigact.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sigact.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strcasestr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strcasestr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strlcat.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strlcat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strlcpy.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strlcpy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strmode.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strmode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strnlen.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strnlen.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strptime.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strptime.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strsep.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strsep.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoll.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoll.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtonum.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtonum.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoul.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoul.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoull.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/strtoull.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sys-queue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/sys-tree.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/timingsafe_bcmp.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/timingsafe_bcmp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/vis.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/vis.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/vis.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/xcrypt.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openbsd-compat/xcrypt.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openssh.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/openssh.xml.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/opensshd.init" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/opensshd.init.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/packet.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/packet.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/packet.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/pathnames.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/pkcs11.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform-pledge.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform-pledge.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform-tracing.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform-tracing.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/platform.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/poly1305.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/poly1305.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/poly1305.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/progressmeter.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/progressmeter.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/progressmeter.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/readconf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/readconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/readconf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/readpass.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/readpass.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/README.regress" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/addrmatch.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/agent-getpeereid.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/agent-pkcs11.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/agent-ptrace.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/agent-timeout.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/agent.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/allow-deny-users.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/banner.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/broken-pipe.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/brokenkeys.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cert-file.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cert-hostkey.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cert-userkey.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cfginclude.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cfgmatch.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cfgparse.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/check-perm.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/cipher-speed.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/conch-ciphers.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/connect-privsep.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/connect.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/dhgex.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/dsa_ssh2.prv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/dsa_ssh2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/dynamic-forward.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/envpass.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/exit-status.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/forcecommand.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/forward-control.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/forwarding.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/host-expand.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/hostkey-agent.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/hostkey-rotate.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/integrity.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/kextype.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/key-options.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keygen-change.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keygen-convert.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keygen-knownhosts.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keygen-moduli.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keys-command.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keyscan.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/keytype.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/krl.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/limit-keytype.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/localcommand.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/login-timeout.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/misc/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/misc/kexfuzz/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/misc/kexfuzz/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/misc/kexfuzz/kexfuzz.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/modpipe.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/moduli.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/multiplex.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/multipubkey.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/netcat.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/portnum.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/principals-command.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/proto-mismatch.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/proto-version.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/proxy-connect.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/putty-ciphers.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/putty-kex.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/putty-transfer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/reconfigure.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/reexec.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/rekey.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/rsa_openssh.prv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/rsa_openssh.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/rsa_ssh2.prv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/scp-ssh-wrapper.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/scp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/setuid-allowed.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-badcmds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-batch.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-chroot.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-cmds.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-glob.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp-perm.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sftp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/ssh-com-client.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/ssh-com-keygen.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/ssh-com-sftp.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/ssh-com.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/ssh2putty.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sshcfgparse.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/sshd-log-wrapper.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/stderr-after-eof.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/stderr-data.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/t11.ok" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/t4.ok" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/t5.ok" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/test-exec.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/transfer.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/try-ciphers.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/Makefile.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/bitmap/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/bitmap/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/conversion/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/conversion/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/mktestdata.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/test_iterate.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_3.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_4.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_5.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/dsa_6.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_3.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_4.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_5.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ecdsa_6.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_3.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_4.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_5.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/ed25519_6.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/known_hosts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_3.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_4.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_5.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa1_6.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_3.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_4.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_5.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/testdata/rsa_6.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/hostkeys/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/kex/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/kex/test_kex.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/kex/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/match/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/match/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fixed.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_fuzz.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_basic.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_crypto.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_getput_fuzz.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/test_sshbuf_misc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshbuf/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/common.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/common.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/mktestdata.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/test_file.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/test_fuzz.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/test_sshkey.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1-cert.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.g" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.priv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.param.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_1_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/dsa_n_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1-cert.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.curve" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.priv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.param.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_1_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.curve" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.priv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.param.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ecdsa_n_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1-cert.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_1_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/ed25519_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.param.n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_1_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.param.n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa1_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1-cert.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.param.q" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_1_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.fp.bb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.p" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.param.q" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_2.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/testdata/rsa_n_pw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/sshkey/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/test_helper/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/test_helper/fuzz.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/test_helper/test_helper.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/utf8/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/unittests/utf8/tests.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/valgrind-unit.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/regress/yes-head.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rijndael.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rijndael.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rijndael.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rsa.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rsa.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/rsa.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-capsicum.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-capsicum.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-darwin.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-darwin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-null.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-null.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-pledge.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-pledge.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-rlimit.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-rlimit.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-seccomp-filter.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-seccomp-filter.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-solaris.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-solaris.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-systrace.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sandbox-systrace.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sc25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sc25519.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sc25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/scp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/servconf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/servconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/servconf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/serverloop.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/serverloop.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/serverloop.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/session.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/session.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/session.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-client.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-client.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-client.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-common.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-common.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-glob.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-glob.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server-main.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server-main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server.8.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp-server.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sftp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/smult_curve25519_ref.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/smult_curve25519_ref.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-add.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-agent.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-dss.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-dss.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-ecdsa.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-ecdsa.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-ed25519.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-ed25519.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-gss.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keygen.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keyscan.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign.8.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-keysign.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-client.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-client.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper.8.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11-helper.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-pkcs11.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-rsa.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-rsa.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh-sandbox.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.1.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh1.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh2.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_api.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_api.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_api.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_config.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_config.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_config.5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssh_config.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-getput-basic.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-getput-basic.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-getput-crypto.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-getput-crypto.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-misc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf-misc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshbuf.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect1.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshconnect2.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd.8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd.8.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd_config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd_config.0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd_config.5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd_config.5.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshd_config.out" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssherr.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssherr.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ssherr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshkey.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshkey.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshkey.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshlogin.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshlogin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshlogin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshpty.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshpty.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshpty.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshtty.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/sshtty.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/survey.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/survey.sh.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ttymodes.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ttymodes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/ttymodes.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uidswap.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uidswap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uidswap.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/umac.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/umac.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/umac.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/umac128.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/utf8.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/utf8.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/utf8.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uuencode.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uuencode.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/uuencode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/verify.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/verify.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/version.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/xmalloc.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/xmalloc.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/openssh-7.5p1/xmalloc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/.deps/main.Po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/AUTHORS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/COPYING" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/ChangeLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/INSTALL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/Makefile.am" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/Makefile.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/NEWS" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/aclocal.m4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/compile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/config.h.in" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/config.status" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/configure" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/configure.ac" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/depcomp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/install-sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/main.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/missing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/sshpass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/sshpass.1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LuffyAudit/src/sshpass-1.06/stamp-h1" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuffyAudit/settings.py" afterPath="$PROJECT_DIR$/LuffyAudit/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +1041,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="1520">
               <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding />
             </state>
@@ -34,18 +1051,48 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactive.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuffyAudit/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LuffyAudit/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LuffyAudit/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="136" column="33" lean-forward="false" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interactive.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/backend/interactive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+            <state relative-caret-position="1420">
+              <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
               <folding>
                 <element signature="e#817#830#0" expanded="true" />
               </folding>
@@ -56,7 +1103,7 @@
       <file leaf-file-name="wusir.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/backend/wusir.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="1280">
               <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="24" />
               <folding>
                 <element signature="e#70#85#0" expanded="true" />
@@ -75,30 +1122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audit_shell.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit_shell.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="280">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -150,12 +1177,14 @@
         <option value="$PROJECT_DIR$/audit_shell.py" />
         <option value="$PROJECT_DIR$/audit/admin.py" />
         <option value="$PROJECT_DIR$/audit/models.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/1.py" />
         <option value="$USER_HOME$/Desktop/changeurl/Google.py" />
         <option value="$PROJECT_DIR$/audit/backend/interactive.py" />
         <option value="$PROJECT_DIR$/audit/backend/wusir.py" />
         <option value="$PROJECT_DIR$/audit/backend/1.py" />
+        <option value="$PROJECT_DIR$/LuffyAudit/LuffyAudit/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/LuffyAudit/settings.py" />
       </list>
     </option>
   </component>
@@ -166,8 +1195,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="47" />
+    <option name="x" value="100" />
+    <option name="y" value="51" />
     <option name="width" value="1299" />
     <option name="height" value="762" />
   </component>
@@ -186,6 +1215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,20 +1226,13 @@
             <path>
               <item name="LuffyAudit" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuffyAudit" type="462c0819:PsiDirectoryNode" />
-              <item name="audit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuffyAudit" type="b2602c69:ProjectViewProjectNode" />
               <item name="LuffyAudit" type="462c0819:PsiDirectoryNode" />
-              <item name="audit" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,10 +1341,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="47" width="1299" height="762" extended-state="0" />
+    <frame x="100" y="51" width="1299" height="762" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19013524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19252187" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -379,6 +1402,76 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/audit/backend/interactive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="e#817#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/backend/wusir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="e#70#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/backend/audit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit_shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/LuffyAudit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="136" column="36" lean-forward="false" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/audit/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1520">
@@ -441,18 +1534,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/changeurl/Google.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1420">
-          <caret line="71" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/changeurl/Google.py" />
     <entry file="file://$PROJECT_DIR$/audit_shell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -566,7 +1651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +1672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/audit/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="280">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -606,7 +1690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/audit/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1520">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
@@ -621,25 +1705,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.py" />
-    <entry file="file://$USER_HOME$/Desktop/changeurl/Google.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="74" column="25" lean-forward="true" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/changeurl/Google.py" />
     <entry file="file://$PROJECT_DIR$/audit/backend/wusir.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="1280">
           <caret line="64" column="24" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="24" />
           <folding>
             <element signature="e#70#85#0" expanded="true" />
@@ -647,21 +1716,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit/backend/1.py">
+    <entry file="file://$PROJECT_DIR$/audit/backend/1.py" />
+    <entry file="file://$PROJECT_DIR$/audit/backend/interactive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="1420">
+          <caret line="71" column="31" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="e#817#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/LuffyAudit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="136" column="36" lean-forward="false" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/audit/backend/interactive.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
-          <folding>
-            <element signature="e#817#830#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="341">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-202">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuffyAudit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="136" column="33" lean-forward="false" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
