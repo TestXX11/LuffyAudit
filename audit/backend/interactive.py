@@ -45,7 +45,7 @@ def posix_shell(chan,session_obj):
         tty.setraw(sys.stdin.fileno())
         tty.setcbreak(sys.stdin.fileno())
         chan.settimeout(0.0)
-
+        flag = False
         cmd = ''
         while True:
             r, w, e = select.select([chan, sys.stdin], [], [])
@@ -55,6 +55,9 @@ def posix_shell(chan,session_obj):
                     if len(x) == 0:
                         sys.stdout.write('\r\n*** EOF\r\n')
                         break
+                    if flag:
+                        cmd += x
+                        flag = False
                     sys.stdout.write(x)
                     sys.stdout.flush()
                 except socket.timeout:
@@ -66,6 +69,8 @@ def posix_shell(chan,session_obj):
                 if x == '\r':
                     models.AuditLog.objects.create(session=session_obj,cmd=cmd)
                     cmd = ''
+                elif x == '\t':
+                    flag = True
                 else:
                     cmd += x
                 chan.send(x)

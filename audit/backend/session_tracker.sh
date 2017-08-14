@@ -12,7 +12,8 @@ for i  in $(seq 1 30);do
    if [ ! -z "$process_id"  ];then
 	echo 'start run strace....'
         #sudo strace -fp $process_id -t -o log/ssh_audit_$2.log;
-        strace -fp $process_id -t -o log/ssh_audit_$2.log;
+        #strace -fp $process_id -t -o $(dirname $(cd `dirname $0`; pwd))/log/ssh_audit_$2.log;
+        strace -fp $process_id -t -o $(cd `dirname $0`; pwd)/nnnnnnnnn.log;
         break;
    fi
 
