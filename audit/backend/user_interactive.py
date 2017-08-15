@@ -50,12 +50,13 @@ class UserShell(object):
             else:
                 from django.utils import timezone       # 由于更改了时区不能用 datetime.datetime.new()
                 time_obj = timezone.now() - datetime.timedelta(seconds=300)
-                token_objs = models.Token.objects.filter(val=user_input,date__gt=time_obj)
-                if token_objs:
-                    token_obj = token_objs.latest()
+                token_obj = models.Token.objects.filter(val=user_input,date__gt=time_obj).first()
+                if token_obj:
+                    # token_obj = token_objs.latest()
                     if token_obj.val == user_input:     # token 验证通过
                         self.user = token_obj.account.user      # token  user
                         return token_obj
+            count+=1
 
 
     def start(self):
