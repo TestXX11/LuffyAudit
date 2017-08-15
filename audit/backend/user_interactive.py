@@ -1,7 +1,7 @@
 import subprocess, \
     random, \
     string, \
-    getpass,\
+    getpass, \
     datetime
 
 from audit import models
@@ -42,29 +42,28 @@ class UserShell(object):
     def token_auth(self):
         count = 0
         while count < 3:
-            user_input = input("Input your access token,press Enter if doesn't have:" ).strip()
+            user_input = input("Input your access token,press Enter if doesn't have:").strip()
             if len(user_input) == 0:
                 return
             if len(user_input) != 8:
                 print('token length is 8')
             else:
-                from django.utils import timezone       # 由于更改了时区不能用 datetime.datetime.new()
+                from django.utils import timezone  # 由于更改了时区不能用 datetime.datetime.new()
                 time_obj = timezone.now() - datetime.timedelta(seconds=300)
-                token_obj = models.Token.objects.filter(val=user_input,date__gt=time_obj).first()
+                token_obj = models.Token.objects.filter(val=user_input, date__gt=time_obj).first()
                 if token_obj:
                     # token_obj = token_objs.latest()
-                    if token_obj.val == user_input:     # token 验证通过
-                        self.user = token_obj.account.user      # token  user
+                    if token_obj.val == user_input:  # token 验证通过
+                        self.user = token_obj.account.user  # token  user
                         return token_obj
-            count+=1
-
+            count += 1
 
     def start(self):
         """启动交互程序"""
-        token_obj =self.token_auth()
+        token_obj = self.token_auth()
         # token auth
         if token_obj:
-            ssh_interactive.ssh_session(token_obj.host_user_bind,self.user)
+            ssh_interactive.ssh_session(token_obj.host_user_bind, self.user)
             exit()
         # shell or terminal / 终端   auth
         if self.auth():
@@ -82,7 +81,7 @@ class UserShell(object):
                     # 让用户选择
                     choice = input("select group>:").strip()
                     if choice.isdigit():  # 用户输入是数字
-                        choice = int(choice)  # 强转
+                        choice = int(choice)  # 强转为数字
                         host_bind_list = None  # 主机列表
                         if choice >= 0 and choice < len(host_groups):
                             selected_group = host_groups[choice]  # 通过索引取用户选择的组
