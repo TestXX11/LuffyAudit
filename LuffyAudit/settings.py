@@ -137,4 +137,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR,'static'),
 )
 
+LOGIN_URL = '/login/'
+
 SESSION_TRACKER_SCRIPT = os.path.join(BASE_DIR,'audit/backend/session_tracker.sh')
