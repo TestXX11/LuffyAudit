@@ -54,15 +54,18 @@ class UserShell(object):
                 if token_objs:
                     token_obj = token_objs.latest()
                     if token_obj.val == user_input:     # token 验证通过
-                        self.user = token_obj.account.user
+                        self.user = token_obj.account.user      # token  user
                         return token_obj
 
 
     def start(self):
         """启动交互程序"""
         token_obj =self.token_auth()
+        # token auth
         if token_obj:
             ssh_interactive.ssh_session(token_obj,self.user)
+            exit()
+        # shell or terminal / 终端   auth
         if self.auth():
             # print(self.user.account.host_user_binds.all()) #select_related()
             while True:
