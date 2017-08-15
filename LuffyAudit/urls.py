@@ -25,5 +25,7 @@ urlpatterns = [
 
     url(r'hostlist.html$', views.host_list ,name="host_list"),
     url(r'^api/hostlist/$', views.get_host_list, name="get_host_list"),
+    url(r'^api/start_cmd/$', views.start_cmd, name="start_cmd"),
+    url(r'^api/get_token/$', views.get_token, name="get_token"),
 
 ]

@@ -64,6 +64,7 @@
                             <th>Port</th>
                             <th>Username</th>
                             <th>Login</th>
+                            <th>Token</th>
                         </tr>
                         </thead>
                         <tbody id="hostlist">
@@ -92,7 +93,8 @@
                 var trs = '';
                 $.each(data, function (index, i) {
                     var tr = "<tr><td>" + i.host__hostname + "</td><td>" + i.host__ip_addr + "</td><td>" + i.host__idc__name
-                        + "</td><td>" + i.host__port + "</td><td>" + i.host_user__username + "</td><td>Login</td></tr>";
+                        + "</td><td>" + i.host__port + "</td><td>" + i.host_user__username + "</td><td>" +
+                        "<button class='btn btn-mint' onclick=GetToken(this,'"+i.id +"')>token</button>Login</td><td></td></tr>";
                     trs += tr;
                 });
                 $('#hostlist').html(trs);
@@ -102,6 +104,14 @@
 
             {#                点击事件，触发高亮#}
             $(self).addClass('active').siblings().removeClass('active');
+        }
+
+        function GetToken(self,gid) {
+            $.post("{% url 'get_token' %}", {'gid': gid}, function (callback) {
+                data=JSON.parse(callback);
+                $(self).parent().next().text(data.token)
+            });
+
         }
 
     </script>

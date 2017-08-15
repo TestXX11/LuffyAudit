@@ -2,7 +2,8 @@ from django.shortcuts import render,HttpResponse,redirect
 from audit import models
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate,login,logout
-import json
+import json,datetime,string,random
+
 
 @login_required
 def index(request):
@@ -54,3 +55,36 @@ def get_host_list(request):
             data = json.dumps(list(host_list.values('id', 'host__hostname', 'host__ip_addr', 'host__port',
                                                     'host__idc__name','host_user__username')))
             return HttpResponse(data)
+
+
+@login_required
+def start_cmd(request):
+
+    return render(request,'start_cmd.html')
+
+
+@login_required
+def get_token(request):
+    """生成token并返回"""
+
+    if request.method == 'POST':
+        """查找未过期的属于这台主机的口令，如同一台主机未过期则不再生成，超时生成新口令"""
+
+        time_obj = datetime.datetime.now() - datetime.timedelta(seconds=300)
+        gid = request.POST.get('gid')
+        exist_token = models.Token.objects.filter(host_user_bind_id=gid,
+                                                  account=request.user.account,
+                                                  date__gt=time_obj).first()
+
+        print(time_obj)
+
+        if exist_token:
+            token_obj = {'token':exist_token.val}
+
+        else:
+            token_val = ''.join(random.sample(string.ascii_lowercase+string.digits,8))
+            models.Token.objects.create(host_user_bind_id=gid,account=request.user.account,val = token_val)
+            token_obj = {'token':token_val}
+        print(token_obj)
+
+        return HttpResponse(json.dumps(token_obj))
