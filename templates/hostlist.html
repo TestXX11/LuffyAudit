@@ -1,7 +1,5 @@
 {% extends 'index.html' %}
 
-
-
 {% block content-container %}
 	<div id="page-title">
 		<h1 class="page-header text-overflow">主机列表</h1>
@@ -42,7 +40,7 @@
 										class="badge badge-success">{{ group.host_user_binds.count }}</span>{{ group.name }}</li>
 					{% endfor %}
 					<li class="list-group-item " onclick="GetHostlist(-1,this)"><span
-									class="badge badge-success">{{ request.user.account.host_user_binds.count }}</span>未分组主机
+									class="badge badge-success">{{ request.user.account.host_user_binds.count }}</span>未分组
 					</li>
 
 				</ul>
@@ -66,14 +64,10 @@
 							<th>Port</th>
 							<th>Username</th>
 							<th>Login</th>
+							<th>Token</th>
 						</tr>
 						</thead>
 						<tbody id="hostlist">
-						<tr>
-							<td><a href="#fakelink" class="btn-link">Order #53451</a></td>
-							<td>Scott S. Calabrese</td>
-							<td>$24.98</td>
-						</tr>
 
 						</tbody>
 					</table>
@@ -87,8 +81,20 @@
 
 
 	<script>
+      function GetToken(self, bind_host_id) {
+          $.post("{% url 'get_token' %}", {
+              'bind_host_id': bind_host_id,
+              'csrfmiddlewaretoken': "{{ csrf_token }}"
+          }, function (callback) {
+              console.log(callback);
+              var data = JSON.parse(callback);
+              $(self).parent().next().text(data.token);
+          });//end post
+      }
 
       function GetHostlist(gid, self) {
+					$(self).find('span').addClass('hide');
+					$(self).siblings().find('span').removeClass('hide');
 
           $.get("{% url 'get_host_list' %}", {'gid': gid}, function (callback) {
 
@@ -98,7 +104,8 @@
               $.each(data, function (index, i) {
                   console.log(i);
                   var tr = "<tr><td>" + i.host__hostname + "</td><td>" + i.host__ip_addr + "</td><td>" + i.host__idc__name
-                      + "</td><td>" + i.host__port + "</td><td>" + i.host_user__username + "</td><td>Login</td></tr>";
+                      + "</td><td>" + i.host__port + "</td><td>" + i.host_user__username + "</td><td>" +
+											"<a class='btn btn-info' onclick=GetToken(this,'"+i.id +"')>Token</a></td><td></td></tr>";
                   trs += tr
 
               });
