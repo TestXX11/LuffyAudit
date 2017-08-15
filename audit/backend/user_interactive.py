@@ -64,7 +64,7 @@ class UserShell(object):
         token_obj =self.token_auth()
         # token auth
         if token_obj:
-            ssh_interactive.ssh_session(token_obj,self.user)
+            ssh_interactive.ssh_session(token_obj.host_user_bind,self.user)
             exit()
         # shell or terminal / 终端   auth
         if self.auth():
