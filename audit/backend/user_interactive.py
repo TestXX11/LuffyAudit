@@ -1,7 +1,9 @@
 import subprocess, \
     random, \
     string, \
-    getpass
+    getpass,\
+    datetime
+
 from audit import models
 from django.conf import settings
 from django.contrib.auth import authenticate
@@ -37,9 +39,30 @@ class UserShell(object):
         else:
             print("too many attempts.")  # 错误次数过多
 
+    def token_auth(self):
+        count = 0
+        while count < 3:
+            user_input = input("Input your access token,press Enter if doesn't have:" ).strip()
+            if len(user_input) == 0:
+                return
+            if len(user_input) != 8:
+                print('token length is 8')
+            else:
+                from django.utils import timezone       # 由于更改了时区不能用 datetime.datetime.new()
+                time_obj = timezone.now() - datetime.timedelta(seconds=300)
+                token_objs = models.Token.objects.filter(val=user_input,date__gt=time_obj)
+                if token_objs:
+                    token_obj = token_objs.latest()
+                    if token_obj.val == user_input:     # token 验证通过
+                        self.user = token_obj.account.user
+                        return token_obj
+
+
     def start(self):
         """启动交互程序"""
-
+        token_obj =self.token_auth()
+        if token_obj:
+            ssh_interactive.ssh_session(token_obj,self.user)
         if self.auth():
             # print(self.user.account.host_user_binds.all()) #select_related()
             while True:
