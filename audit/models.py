@@ -18,8 +18,7 @@ class Host(models.Model):
     hostname = models.CharField(max_length=64, unique=True)
     ip_addr = models.GenericIPAddressField(unique=True)
     port = models.IntegerField(default=22)
-    idc = models.ForeignKey("IDC",
-                            on_delete=models.CASCADE, )
+    idc = models.ForeignKey("IDC",on_delete=models.CASCADE, )
     # host_groups = models.ManyToManyField("HostGroup")
     # host_users = models.ManyToManyField("HostUser")
     enabled = models.BooleanField(default=True)
@@ -56,9 +55,9 @@ class HostUser(models.Model):
 
 
 class Token(models.Model):
-    host_user_bind = models.ForeignKey("HostUserBind")
+    host_user_bind = models.ForeignKey("HostUserBind",on_delete=models.CASCADE,)
     val = models.CharField(max_length=128,unique=True)
-    account = models.ForeignKey("Account")
+    account = models.ForeignKey("Account",on_delete=models.CASCADE,)
     expire = models.IntegerField("超时时间(s)",default=300)
     date = models.DateTimeField(auto_now_add=True)
 
