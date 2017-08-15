@@ -3,7 +3,8 @@ import subprocess,random,string
 from django.contrib.auth import authenticate
 from django.conf import settings 
 from audit import models
-from audit.backend import ssh_interactive 
+from audit.backend import ssh_interactive
+import datetime
 
 class UserShell(object):
     """用户登录堡垒机后的shell"""
@@ -30,9 +31,31 @@ class UserShell(object):
         else:
             print("too many attempts.")
 
+    def token_auth(self):
+        count = 0
+        while count < 3:
+            user_input = input("Input your access token, press Enter if doesn't have:").strip()
+            if len(user_input) == 0:
+                return
+            if len(user_input) != 8:
+                print("token length is 8")
+            else:
+                time_obj = datetime.datetime.now() - datetime.timedelta(seconds=300)  # 5mins ago
+                token_obj = models.Token.objects.filter(val=user_input,date__gt=time_obj).first()
+                if token_obj:
+
+                    if token_obj.val == user_input: #口令对上了
+                        self.user = token_obj.account.user
+                        return token_obj
+
+
+
     def start(self):
         """启动交互程序"""
-
+        token_obj = self.token_auth()
+        if token_obj:
+            ssh_interactive.ssh_session(token_obj.host_user_bind, self.user)
+            exit()
         if self.auth():
             #print(self.user.account.host_user_binds.all()) #select_related()
             while True:
