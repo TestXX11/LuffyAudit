@@ -51,13 +51,13 @@ def posix_shell(chan, session_obj):
         cmd = ''
         table_list = []
         table_flag = False
-        special_keys = ['\x07', 'table', '\x7f', 'backspace',]
+        special_keys = ['\x07', 'table', '\x7f', 'backspace', ]
         while True:
             r, w, e = select.select([chan, sys.stdin], [], [])
             if chan in r:  # 远程 由返回 命令结果
                 try:
                     x = u(chan.recv(1024))
-                    #print('raw x:\n', x)
+                    # print('raw x:\n', x)
                     if len(x) == 0:
                         sys.stdout.write('\r\n*** EOF\r\n')
                         break
@@ -66,7 +66,7 @@ def posix_shell(chan, session_obj):
                             pass
                         else:
                             table_list.append(x)
-                        print(table_list,'table_list')
+                        # print(table_list,'table_list')
                         table_flag = False
                     sys.stdout.write(x)
                     sys.stdout.flush()
@@ -77,21 +77,19 @@ def posix_shell(chan, session_obj):
                 if len(x) == 0:
                     break
                 if x == '\t':
-                    #print('this is table key\n',r, w, e)
+                    # print('this is table key\n',r, w, e)
                     table_flag = True
                 elif x not in special_keys:
                     table_list.append(x)
-                    print(table_list,'after')
+                    # print(table_list,'after')
                 if x == '\r':
-                    #table_list.remove('\x07')
+                    # table_list.remove('\x07')
                     cmd = ''.join(table_list)
-                    
-                    print("cmd:\t", cmd)
+
+                    # print("cmd:\t", cmd)
                     models.AuditLog.objects.create(session=session_obj, cmd=cmd)
                     cmd = ''
                     table_list.clear()
-                #else:
-                    #cmd += x
                 chan.send(x)
 
     finally:

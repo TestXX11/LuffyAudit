@@ -10,6 +10,9 @@ class SessionLogAdmin(admin.ModelAdmin):
     list_display = ['id','account','host_user_bind','create_date','end_date']
     list_filter = ['create_date','account']
 
+class TaskLogAdmin(admin.ModelAdmin):
+    list_display = ['id', 'task', 'host', 'result', 'date', 'status']
+    list_filter = ['status']
 
 admin.site.register(models.Host)
 admin.site.register(models.HostUser)
@@ -19,3 +22,5 @@ admin.site.register(models.Account)
 admin.site.register(models.IDC)
 admin.site.register(models.AuditLog, AuditLogAdmin)
 admin.site.register(models.SessionLog, SessionLogAdmin)
+admin.site.register(models.Task)
+admin.site.register(models.TaskLog, TaskLogAdmin)

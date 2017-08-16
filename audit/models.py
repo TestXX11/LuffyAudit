@@ -106,3 +106,32 @@ class Token(models.Model):
 
     def __str__(self):
         return "%s-%s" % (self.host_user_bind, self.val)
+
+
+class Task(models.Model):
+    """多任务记录"""
+    choices = ((0, 'cmd'), (1, 'file_transfer'))
+    type = models.SmallIntegerField("任务类型", choices=choices)    # 任务类型
+    content = models.TextField("任务内容")
+    timeout = models.IntegerField("任务超时设置", default=300)
+    account = models.ForeignKey("Account")
+    date = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return "%s-%s-%s" %(self.id, self.get_type_display(), self.content)
+
+
+class TaskLog(models.Model):
+    """单条主机执行任务记录"""
+    task = models.ForeignKey("Task")
+    host = models.ForeignKey("HostUserBind")
+    result = models.TextField(default="init...")
+    date = models.DateTimeField(auto_now_add=True)
+    choices = ((0, '成功'), (1, '失败'), (2, '超时'), (3, '初始化'))
+    status = models.SmallIntegerField(choices=choices, default=3)
+
+    class Meta:
+        unique_together = ('task', 'host')
+
+    def __str__(self):
+        return "%s-%s-%s" % (self.host, self.result, self.status)
