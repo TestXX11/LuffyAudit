@@ -122,6 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 SESSION_TRACKER_SCRIPT = os.path.join(BASE_DIR, 'audit/backend/session_tracker.sh')
 MULTI_TASK_SCRIPT = os.path.join(BASE_DIR, 'audit/backend/multitask.py')
+MULTI_TASK_PATH = os.path.join(BASE_DIR, 'audit/backend/')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'statics/'),
 

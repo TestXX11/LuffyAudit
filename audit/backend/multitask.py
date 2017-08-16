@@ -37,6 +37,7 @@ def file_transfer(host):
 
 if __name__ == '__main__':
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    #print(BASE_DIR, 'multitask base dir......................................')
     sys.path.append(BASE_DIR)
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "jackupdownAudit.settings")
     import django
@@ -44,19 +45,28 @@ if __name__ == '__main__':
     from audit import models
 
     task_id = sys.argv[1]
+    #print('task id .........', task_id, type(task_id),int(task_id), '\n')
+
+    #test = models.Task.objects.get(id=20)
+    #print(test.id, test.type, '....test..........\n')
+    #task_id = sys.argv[1]
+    #print('....task id....', task_id, type(task_id))
     #1. 根据Taskid拿到任务对象，
     #2. 拿到任务关联的所有主机
     #3.  根据任务类型调用多进程 执行不同的方法
     #4 . 每个子任务执行完毕后，自己八结果写入数据库
-    task_obj = models.Task.objects.get(id=task_id)
+    task_obj = models.Task.objects.get(id=int(task_id))
     pool = multiprocessing.Pool(processes=10)
     if task_obj.type == 0:  # cmd
+        print('run cmd......cmd .....\n')
         func = cmd_run
     else:
         func = file_transfer
     for host in task_obj.tasklog_set.all():
-        pool.apply_async(func, args=(host.id, task_obj.id, task_obj.content))
+        print(host.id, task_obj.id, task_obj.content)
+        pool.apply_async(func, args=(host.id, task_obj.content))
+        #pool.apply_async(func, args=(host.id, task_obj.id, task_obj.content))
     pool.close()
-    print('------------------\n', task_obj)
+    print('-----pool close-------------\n', task_obj)
     pool.join()
 

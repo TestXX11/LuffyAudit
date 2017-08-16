@@ -2,3 +2,6 @@ Sat Aug 12 13:29:04 CST 2017
 更新table补全，但是无法实现补全之后又delete的情况。
 例如：输入ifco--->table补全nfig--->删除g--->table补全g--->回车；得到命令为：ifconfig g
 增加shellinabox插件，实现在web界面执行远程命令...即使用户已在web登陆，仍然需要口令登陆shellinabox
+
+Wed Aug 16 20:08:03 CST 2017
+增加web界面批量执行cmd功能。

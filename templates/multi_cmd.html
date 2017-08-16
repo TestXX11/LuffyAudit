@@ -121,10 +121,12 @@
               $("#task_result").empty();
               $.each(callback, function (k, v) {
                   var p = document.createElement('p');
+                  console.log(v.host__host__hostname + '---' + v.host__host__ip_addr + '---' + v.status);
                   p.innerText = v.host__host__hostname + '---' + v.host__host__ip_addr + '---' + v.status;
                   var pre = document.createElement('pre');
                   pre.innerText = v.result;
-                  $("#task_result").html(p + pre);
+      
+                  $("#task_result").append(p,pre);
               })
           })
       }

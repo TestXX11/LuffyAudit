@@ -84,7 +84,9 @@ def multi_cmd(request):
 def multitask(request):
     task_obj = task_handler.Task(request)
     if task_obj.is_valid():
+        #print('before multi task.....')
         result = task_obj.run()
+        #print(result,'multi task result')
         return HttpResponse(json.dumps({'task_id': result}))
     return HttpResponse(json.dumps(task_obj.errors))
 
@@ -92,7 +94,7 @@ def multitask(request):
 @login_required
 def multitask_result(request):
     task_id = request.GET.get('task_id')
-    task_obj = models.Task.objects.get(id=task_id)
+    task_obj = models.Task.objects.get(id=int(task_id))
     results = list(task_obj.tasklog_set.values(
         'id', 'status', 'host__host__hostname', 'host__host__ip_addr', 'result'
     ))

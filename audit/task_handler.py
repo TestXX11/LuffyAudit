@@ -31,6 +31,9 @@ class Task(object):
         """执行任务并返回任务id"""
         task_func = getattr(self, self.task_data.get('type'))
         task_id = task_func()
+        cmd_str = "python3 %s %s" % (settings.MULTI_TASK_SCRIPT, task_id)
+        multitask_obj = subprocess.Popen(cmd_str, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        print(multitask_obj.stdout.read(),'\n.........\n',  multitask_obj.stderr.read())
         return task_id
 
     @atomic
@@ -53,8 +56,10 @@ class Task(object):
             )
         models.TaskLog.objects.bulk_create(tasklog_objs, 100)
 
-        cmd_str = "python %s %s" % (settings.MULTI_TASK_SCRIPT, task_obj.id)
-        multitask_obj = subprocess.Popen(cmd_str, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #cmd_str = "python3 %s %s" % (settings.MULTI_TASK_SCRIPT, task_obj.id)
+        #print('cmd_str', cmd_str, settings.MULTI_TASK_PATH)
+        #multitask_obj = subprocess.Popen(cmd_str, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        #print(multitask_obj.stdout.read(),'\n.........\n',  multitask_obj.stderr.read())
         return task_obj.id
 
     def run_cmd(self):
