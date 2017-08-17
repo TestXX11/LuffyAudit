@@ -113,7 +113,7 @@ class Task(models.Model):
     choices = ((0, 'cmd'), (1, 'file_transfer'))
     type = models.SmallIntegerField("任务类型", choices=choices)    # 任务类型
     content = models.TextField("任务内容")
-    timeout = models.IntegerField("任务超时设置", default=300)
+    timeout = models.IntegerField("任务超时设置", default=10)
     account = models.ForeignKey("Account")
     date = models.DateTimeField(auto_now_add=True)
 

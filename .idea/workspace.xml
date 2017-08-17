@@ -2,17 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b349b16a-3f63-4b41-8712-939f064ebafb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/backend/multitask.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/audit/task_handler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/dropzone/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/dropzone/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/dropzone/dropzone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/dropzone/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/hostgroups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/multitask_js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/task_result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/multi_file_transfer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/admin.py" afterPath="$PROJECT_DIR$/audit/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/backend/interactive.py" afterPath="$PROJECT_DIR$/audit/backend/interactive.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/backend/multitask.py" afterPath="$PROJECT_DIR$/audit/backend/multitask.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/models.py" afterPath="$PROJECT_DIR$/audit/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/task_handler.py" afterPath="$PROJECT_DIR$/audit/task_handler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/audit/views.py" afterPath="$PROJECT_DIR$/audit/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jackupdownAudit/settings.py" afterPath="$PROJECT_DIR$/jackupdownAudit/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jackupdownAudit/urls.py" afterPath="$PROJECT_DIR$/jackupdownAudit/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/multi_cmd.html" afterPath="$PROJECT_DIR$/templates/multi_cmd.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/nifty.min.css" afterPath="$PROJECT_DIR$/static/css/nifty.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/pace.min.css" afterPath="$PROJECT_DIR$/static/css/pace.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-coffee.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-coffee.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-dark.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-dark.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-dust.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-dust.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-light.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-light.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-lime.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-lime.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-mint.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-mint.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-navy.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-navy.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-ocean.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-ocean.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-prickly-pear.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-prickly-pear.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-purple.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-purple.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-well-red.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-well-red.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-a/theme-yellow.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-a/theme-yellow.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-coffee.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-coffee.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-dark.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-dark.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-dust.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-dust.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-light.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-light.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-lime.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-lime.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-mint.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-mint.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-navy.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-navy.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-ocean.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-ocean.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-prickly-pear.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-prickly-pear.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-purple.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-purple.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-well-red.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-well-red.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-b/theme-yellow.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-b/theme-yellow.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-coffee.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-coffee.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-dark.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-dark.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-dust.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-dust.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-light.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-light.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-lime.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-lime.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-mint.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-mint.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-navy.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-navy.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-ocean.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-ocean.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-prickly-pear.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-prickly-pear.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-purple.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-purple.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-well-red.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-well-red.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/css/themes/type-c/theme-yellow.min.css" afterPath="$PROJECT_DIR$/static/css/themes/type-c/theme-yellow.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/bg-img-3.jpg" afterPath="$PROJECT_DIR$/static/img/bg-img-3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/flags/france.png" afterPath="$PROJECT_DIR$/static/img/flags/france.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/flags/germany.png" afterPath="$PROJECT_DIR$/static/img/flags/germany.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/flags/italy.png" afterPath="$PROJECT_DIR$/static/img/flags/italy.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/flags/spain.png" afterPath="$PROJECT_DIR$/static/img/flags/spain.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/flags/united-kingdom.png" afterPath="$PROJECT_DIR$/static/img/flags/united-kingdom.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-collapsed-nav.png" afterPath="$PROJECT_DIR$/static/img/gs-collapsed-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-error-page.png" afterPath="$PROJECT_DIR$/static/img/gs-error-page.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-expanded-nav.png" afterPath="$PROJECT_DIR$/static/img/gs-expanded-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-login-w-bg.png" afterPath="$PROJECT_DIR$/static/img/gs-login-w-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-login.png" afterPath="$PROJECT_DIR$/static/img/gs-login.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-push-nav.png" afterPath="$PROJECT_DIR$/static/img/gs-push-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-reveal-nav.png" afterPath="$PROJECT_DIR$/static/img/gs-reveal-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/gs-slide-in-nav.png" afterPath="$PROJECT_DIR$/static/img/gs-slide-in-nav.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/logo.png" afterPath="$PROJECT_DIR$/static/img/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/1.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/10.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/10.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/2.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/3.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/4.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/5.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/6.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/7.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/8.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/img/profile-photos/9.png" afterPath="$PROJECT_DIR$/static/img/profile-photos/9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/js/jquery.min.js" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/js/nifty.min.js" afterPath="$PROJECT_DIR$/static/js/nifty.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/js/pace.min.js" afterPath="$PROJECT_DIR$/static/js/pace.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/LICENSE.txt" afterPath="$PROJECT_DIR$/static/plugins/magic-check/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/css/magic-check.css" afterPath="$PROJECT_DIR$/static/plugins/magic-check/css/magic-check.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/css/magic-check.min.css" afterPath="$PROJECT_DIR$/static/plugins/magic-check/css/magic-check.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/sass/_checkbox.scss" afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_checkbox.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/sass/_common.scss" afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_common.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/sass/_radio.scss" afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_radio.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/sass/_variable.scss" afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/_variable.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/plugins/magic-check/sass/magic-check.scss" afterPath="$PROJECT_DIR$/static/plugins/magic-check/sass/magic-check.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/LICENSE.txt" afterPath="$PROJECT_DIR$/static/premium/icon-sets/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.eot" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.svg" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.ttf" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.woff" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/fonts/premium-line-icons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/premium-line-icons.css" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/premium-line-icons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/line-icons/premium-line-icons.min.css" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/line-icons/premium-line-icons.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.eot" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.svg" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.ttf" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.woff" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/fonts/premium-solid-icons.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/premium-solid-icons.css" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/premium-solid-icons.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/statics/premium/icon-sets/icons/solid-icons/premium-solid-icons.min.css" afterPath="$PROJECT_DIR$/static/premium/icon-sets/icons/solid-icons/premium-solid-icons.min.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,46 +129,42 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="multi_cmd.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="multi_cmd.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/multi_cmd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="2" selection-end-line="166" selection-end-column="28" />
+            <state relative-caret-position="-7">
+              <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit/admin.py">
+      <file leaf-file-name="multi_file_transfer.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/multi_file_transfer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="310">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit/views.py">
+      <file leaf-file-name="multitask_js.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/components/multitask_js.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1570">
+              <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/audit/task_handler.py">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="78" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,8 +172,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jackupdownAudit/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="690">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -88,8 +182,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/audit/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="123" column="6" lean-forward="false" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+            <state relative-caret-position="31">
+              <caret line="115" column="55" lean-forward="false" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -99,10 +193,8 @@
         <entry file="file://$PROJECT_DIR$/audit/backend/multitask.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,19 +202,35 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jackupdownAudit/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="123" column="72" lean-forward="true" selection-start-line="123" selection-start-column="72" selection-end-line="123" selection-end-column="72" />
+            <state relative-caret-position="183">
+              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/audit/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="68" />
-              <folding />
+            <state relative-caret-position="-1342">
+              <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+                <marker date="1502976215253" expanded="true" signature="2884:2893" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task_handler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/audit/task_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="63" column="71" lean-forward="false" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1502976321302" expanded="true" signature="1054:1182" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,12 +241,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>IDC</find>
+      <find>niftyNoty</find>
+      <find>批量文件</find>
+      <find>命令</find>
+      <find>cmd</find>
+      <find>未输入</find>
+      <find>request.user.account.id</find>
+      <find>file_transfer</find>
+      <find>task_file_upload</find>
+      <find>post task</find>
+      <find>send</find>
+      <find>join</find>
+      <find>transfer-type</find>
+      <find>task_data</find>
+      <find>remote_path</find>
+      <find>file-download-btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,17 +275,23 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/hostlist.html" />
         <option value="$PROJECT_DIR$/audit/backend/user_interactive.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/../t1.py" />
         <option value="$PROJECT_DIR$/audit/backend/interactive.py" />
-        <option value="$PROJECT_DIR$/audit/models.py" />
-        <option value="$PROJECT_DIR$/audit/backend/multitask.py" />
-        <option value="$PROJECT_DIR$/jackupdownAudit/settings.py" />
         <option value="$PROJECT_DIR$/audit/backend/task_handler.py" />
-        <option value="$PROJECT_DIR$/audit/views.py" />
-        <option value="$PROJECT_DIR$/jackupdownAudit/urls.py" />
         <option value="$PROJECT_DIR$/audit/admin.py" />
+        <option value="$PROJECT_DIR$/templates/components/task_result.html" />
+        <option value="$PROJECT_DIR$/templates/components/hostgroups.html" />
         <option value="$PROJECT_DIR$/templates/multi_cmd.html" />
+        <option value="$PROJECT_DIR$/jackupdownAudit/settings.py" />
+        <option value="$PROJECT_DIR$/jackupdownAudit/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/audit/models.py" />
+        <option value="$PROJECT_DIR$/audit/views.py" />
+        <option value="$PROJECT_DIR$/audit/task_handler.py" />
+        <option value="$PROJECT_DIR$/templates/components/multitask_js.html" />
+        <option value="$PROJECT_DIR$/audit/backend/multitask.py" />
+        <option value="$PROJECT_DIR$/templates/multi_file_transfer.html" />
       </list>
     </option>
   </component>
@@ -172,8 +302,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="737" />
-    <option name="width" value="1172" />
+    <option name="x" value="558" />
+    <option name="width" value="1351" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -191,6 +321,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -213,13 +344,112 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="downloads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="downloads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="57" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="audit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackupdownAudit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -228,17 +458,19 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit\audit" />
-      <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit\statics\plugins" />
       <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit\templates" />
       <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit" />
       <recent name="D:\Documents\Py_Project\jackupdownAudit" />
       <recent name="D:\Documents\Py_Project\jackupdownAudit\audit" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit\audit" />
+      <recent name="D:\Documents\Py_Project\jackupdownAudit\jackupdownAudit" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.jackupdownAudit">
@@ -576,16 +808,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="737" y="0" width="1172" height="1038" extended-state="0" />
+    <frame x="558" y="0" width="1351" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1985428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16679718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37457046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3207331" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26345932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -607,9 +839,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23329559" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12714592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40091637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26345932" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.275441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,61 +864,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16230">
-          <caret line="541" column="0" lean-forward="false" selection-start-line="541" selection-start-column="0" selection-end-line="541" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/multi_cmd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-1184660488/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156420">
-          <caret line="5214" column="8" lean-forward="false" selection-start-line="5214" selection-start-column="8" selection-end-line="5214" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2130">
-          <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jackupdownAudit/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3180">
-          <caret line="107" column="56" lean-forward="false" selection-start-line="107" selection-start-column="56" selection-end-line="107" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/hostlist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,9 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="68" column="64" lean-forward="false" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
-          <folding>
-            <element signature="e#29#62#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,6 +900,7 @@
           <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="37" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+            <marker date="1502976215253" expanded="true" signature="2884:2893" ph="..." />
           </folding>
         </state>
       </provider>
@@ -746,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1410">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,9 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="68" column="64" lean-forward="true" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
-          <folding>
-            <element signature="e#29#62#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,6 +949,7 @@
           <caret line="78" column="37" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="37" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+            <marker date="1502976215253" expanded="true" signature="2884:2893" ph="..." />
           </folding>
         </state>
       </provider>
@@ -798,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,6 +1007,7 @@
           <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
+            <marker date="1502976215253" expanded="true" signature="2884:2893" ph="..." />
           </folding>
         </state>
       </provider>
@@ -840,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -901,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.3/system/python_stubs/-1184660488/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156420">
@@ -928,7 +1095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3360">
           <caret line="115" column="18" lean-forward="true" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +1102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,7 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="1799" column="6" lean-forward="false" selection-start-line="1799" selection-start-column="6" selection-end-line="1799" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,9 +1116,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="781">
           <caret line="68" column="64" lean-forward="false" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
-          <folding>
-            <element signature="e#29#62#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,84 +1123,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/components/task_result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="541" column="0" lean-forward="false" selection-start-line="541" selection-start-column="0" selection-end-line="541" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jackupdownAudit/settings.py">
+    <entry file="file://C:/Python36/Lib/site-packages/django/conf/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="123" column="72" lean-forward="true" selection-start-line="123" selection-start-column="72" selection-end-line="123" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/backend/multitask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="11" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jackupdownAudit/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="84" column="30" lean-forward="false" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/task_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/audit/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="123" column="6" lean-forward="false" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+        <state relative-caret-position="613">
+          <caret line="200" column="0" lean-forward="false" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/audit/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="750">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/hostgroups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="6" lean-forward="false" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/nifty.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="0" column="19127" lean-forward="false" selection-start-line="0" selection-start-column="19118" selection-end-line="0" selection-end-column="19127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="69" column="32" lean-forward="true" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jackupdownAudit/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/multi_cmd.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="2" selection-end-line="166" selection-end-column="28" />
+        <state relative-caret-position="-7">
+          <caret line="54" column="32" lean-forward="false" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/task_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="63" column="71" lean-forward="false" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1502976321302" expanded="true" signature="1054:1182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jackupdownAudit/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="115" column="55" lean-forward="false" selection-start-line="115" selection-start-column="55" selection-end-line="115" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1342">
+          <caret line="89" column="30" lean-forward="false" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+            <marker date="1502976215253" expanded="true" signature="2884:2893" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audit/backend/multitask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/multitask_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1570">
+          <caret line="54" column="57" lean-forward="false" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/multi_file_transfer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -7,6 +7,7 @@ from audit import models
 
 class Task(object):
     """处理批量任务，包括执行命令和传输文件"""
+
     def __init__(self, request):
         self.request = request
         self.errors = []
@@ -15,6 +16,7 @@ class Task(object):
     def is_valid(self):
         """验证任务和主机列表是否合法"""
         task_data = self.request.POST.get('task_data')
+        print('is valid...', task_data)
         if task_data:
             self.task_data = json.loads(task_data)
             if self.task_data.get('type') == 'cmd':
@@ -22,7 +24,7 @@ class Task(object):
                     return True
                 self.errors.append({'invalid argument': 'cmd or host list is empty'})
             elif self.task_data.get('type') == 'file_transfer':
-                self.errors.append({'invalid argument': 'developing...'})
+                return True
             else:
                 self.errors.append({'invalid argument': 'task type is invalid'})
         self.errors.append({'invalid data': 'task data is not exist'})
@@ -30,11 +32,11 @@ class Task(object):
     def run(self):
         """执行任务并返回任务id"""
         task_func = getattr(self, self.task_data.get('type'))
-        task_id = task_func()
-        cmd_str = "python3 %s %s" % (settings.MULTI_TASK_SCRIPT, task_id)
+        task_obj = task_func()
+        cmd_str = "python %s %s" % (settings.MULTI_TASK_SCRIPT, task_obj.id)
         multitask_obj = subprocess.Popen(cmd_str, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(multitask_obj.stdout.read(),'\n.........\n',  multitask_obj.stderr.read())
-        return task_id
+        print(multitask_obj.stdout.read(), '\n....task handler...run.....\n', multitask_obj.stderr.read())
+        return task_obj
 
     @atomic
     def cmd(self):
@@ -56,14 +58,28 @@ class Task(object):
             )
         models.TaskLog.objects.bulk_create(tasklog_objs, 100)
 
-        #cmd_str = "python3 %s %s" % (settings.MULTI_TASK_SCRIPT, task_obj.id)
-        #print('cmd_str', cmd_str, settings.MULTI_TASK_PATH)
-        #multitask_obj = subprocess.Popen(cmd_str, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        #print(multitask_obj.stdout.read(),'\n.........\n',  multitask_obj.stderr.read())
-        return task_obj.id
-
-    def run_cmd(self):
-        pass
+        # cmd_str = "python3 %s %s" % (settings.MULTI_TASK_SCRIPT, task_obj.id)
+        # print('cmd_str', cmd_str, settings.MULTI_TASK_PATH)
+        # multitask_obj = subprocess.Popen(cmd_str, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        # print(multitask_obj.stdout.read(),'\n.........\n',  multitask_obj.stderr.read())
+        return task_obj
 
     def file_transfer(self):
-        pass
+        """批量文件"""
+        task_obj = models.Task.objects.create(
+            type=1,
+            account=self.request.user.account,
+            content=json.dumps(self.task_data),
+        )
+        tasklog_objs = []
+        host_ids = set(self.task_data.get('host_list'))
+        for host_id in host_ids:
+            tasklog_objs.append(
+                models.TaskLog(
+                    task_id=task_obj.id,
+                    host_id=host_id,
+                    status=3,
+                )
+            )
+        models.TaskLog.objects.bulk_create(tasklog_objs, 100)
+        return task_obj

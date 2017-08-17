@@ -2,10 +2,11 @@ import time
 import sys
 import os
 import paramiko
+import json
 import multiprocessing
 
 
-def cmd_run(tasklog_id, cmd):
+def cmd_run(tasklog_id, task_id, cmd):
     try:
         import django
         django.setup()
@@ -28,11 +29,53 @@ def cmd_run(tasklog_id, cmd):
         tasklog_obj.status = 0
         tasklog_obj.save()
     except Exception as e:
-        print('error:', e)
+        print('cmd run error:', e)
+        tasklog_obj.status = 1
+        tasklog_obj.result = str(e)
+        tasklog_obj.save()
 
 
-def file_transfer(host):
-    pass
+def file_transfer(tasklog_id, task_id, task_content):
+    import django
+    django.setup()
+    from django.conf import settings
+    from audit import models
+    tasklog_obj = models.TaskLog.objects.get(id=tasklog_id)
+    print('run file_transfer:', tasklog_obj, task_id, task_content)
+    try:
+        task_data = json.loads(tasklog_obj.task.content)
+        t = paramiko.Transport((tasklog_obj.host.host.ip_addr, tasklog_obj.host.host.port))
+        t.connect(username=tasklog_obj.host.host_user.username, password=tasklog_obj.host.host_user.password)
+        sftp = paramiko.SFTPClient.from_transport(t)
+        if task_data.get('file_transfer_type') == 'send':
+            local_path = os.path.join(settings.FILE_UPLOADS, str(tasklog_obj.task.account.id), task_data.get('random_str'))
+            print('local_path...send', local_path)
+            for file_name in os.listdir(local_path):
+                print('for............file name', file_name, task_data.get('remote_path'))
+                sftp.put(os.path.join(local_path, file_name), os.path.join(task_data.get('remote_path'), file_name))
+            tasklog_obj.result = "send all files done...."
+        else:
+            # 从远程服务器下载文件
+            download_dir = os.path.join(settings.FILE_DOWNLOADS, str(task_id))
+            print(download_dir, '-------------------------------------', os.path.isdir(download_dir))
+            if not os.path.isdir(download_dir):
+                os.makedirs(download_dir, exist_ok=True)
+            print('....remote_filename.....',task_data.get('remote_path'))
+            remote_filename = os.path.basename(task_data.get('remote_path'))
+            print('remote_filename........', remote_filename)
+            local_path = os.path.join(download_dir, tasklog_obj.host.host.ip_addr+'.'+remote_filename)
+            print('file_transfer...local_path', local_path)
+            sftp.get(task_data.get('remote_path'), local_path)
+            tasklog_obj.result = "get remote file [%s] to local done..." % task_data.get('remote_path')
+        t.close()
+        tasklog_obj.status = 0
+        tasklog_obj.save()
+    except Exception as e:
+        print('file transfer error:', e)
+        tasklog_obj.status = 1
+        tasklog_obj.result = str(e)
+        tasklog_obj.save()
+
 
 
 if __name__ == '__main__':
@@ -64,7 +107,7 @@ if __name__ == '__main__':
         func = file_transfer
     for host in task_obj.tasklog_set.all():
         print(host.id, task_obj.id, task_obj.content)
-        pool.apply_async(func, args=(host.id, task_obj.content))
+        pool.apply_async(func, args=(host.id, task_obj.id, task_obj.content))
         #pool.apply_async(func, args=(host.id, task_obj.id, task_obj.content))
     pool.close()
     print('-----pool close-------------\n', task_obj)

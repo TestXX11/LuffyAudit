@@ -123,8 +123,11 @@ STATIC_URL = '/static/'
 SESSION_TRACKER_SCRIPT = os.path.join(BASE_DIR, 'audit/backend/session_tracker.sh')
 MULTI_TASK_SCRIPT = os.path.join(BASE_DIR, 'audit/backend/multitask.py')
 MULTI_TASK_PATH = os.path.join(BASE_DIR, 'audit/backend/')
+FILE_UPLOADS = os.path.join(BASE_DIR, 'uploads')
+FILE_DOWNLOADS = os.path.join(BASE_DIR, 'downloads')
+
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'statics/'),
+    os.path.join(BASE_DIR, 'static/'),
 
 )
 LOGIN_URL = '/login/'
