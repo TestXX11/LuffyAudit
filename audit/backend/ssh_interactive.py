@@ -61,6 +61,7 @@ def agent_auth(transport, username):
 
 
 def manual_auth(t, username, passwd):
+    '''认证方式,这里只用用户名密码'''
     #    default_auth = 'p'
     #    auth = input('Auth by (p)assword, (r)sa key, or (d)ss key? [%s] ' % default_auth)
     #    if len(auth) == 0:

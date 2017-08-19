@@ -102,3 +102,4 @@ ENV/
 
 .idea/
 *.xml
+audit/migrations/0004_remove_task_host_user_binds.py

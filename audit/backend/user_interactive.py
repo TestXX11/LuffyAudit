@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+#-*- coding: utf-8 -*-
+
 import subprocess, \
     random, \
     string, \
@@ -19,7 +22,7 @@ class UserShell(object):
 
     def auth(self):
         '''
-        username,password 返回登录结果
+         堡垒机认证 username,password 返回登录结果
         :return:
         '''
         count = 0
@@ -40,6 +43,7 @@ class UserShell(object):
             print("too many attempts.")  # 错误次数过多
 
     def token_auth(self):
+        '''token 认证'''
         count = 0
         while count < 3:
             user_input = input("Input your access token,press Enter if doesn't have:").strip()
@@ -63,6 +67,7 @@ class UserShell(object):
         token_obj = self.token_auth()
         # token auth
         if token_obj:
+            # token 认证成功链接到目标主机的 bash
             ssh_interactive.ssh_session(token_obj.host_user_bind, self.user)
             exit()
         # shell or terminal / 终端   auth
@@ -127,5 +132,5 @@ class UserShell(object):
                                 elif choice2 == 'b':
                                     break
 
-                except KeyboardInterrupt as e:
+                except KeyboardInterrupt as e:      # 出错就退出
                     exit()

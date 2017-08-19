@@ -71,9 +71,9 @@ def posix_shell(chan, session_obj):
                 x = sys.stdin.read(1)
                 if len(x) == 0:
                     break
-                if x == '\t':
+                if x == '\t':   # 捕捉到 tab
                     tab_flag = True
-                if x == '\r':
+                if x == '\r':   # 捕捉到命令一条命令结束的换行符 / enter/ return
                     print('---->', cmd)
                     models.AuditLog.objects.create(session=session_obj, cmd=cmd)
                     cmd = ''
