@@ -25,7 +25,7 @@ def cmd_run(tasklog_id,task_id,cmd_str):
                     timeout=15)
         stdin,stdout,stderr = ssh.exec_command(cmd_str)
         result = stdout.read()+stderr.read()
-
+        print('result',result)
         print('--------%s--------'%tasklog_obj.host_user_bind)
         ssh.close()
         tasklog_obj.result = result or 'cmd has no result output.'  # 如果结果都为空
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     from audit import models
 
     task_id = sys.argv[1]
-
+    print('task_id',task_id)
     # 1. 根据task_id 拿到任务对象
     # 2. 拿到任务关联的所有主机
     # 3. 根据任务类型调用多进程 , 执行不同的方法
@@ -61,16 +61,16 @@ if __name__ == '__main__':
     task_obj = models.Task.objects.get(id=task_id)
 
     pool = multiprocessing.Pool(processes=10)
-
+    print('----> 0 ')
     if task_obj.task_type == 0: #cmd
         print('0')
         task_func = cmd_run
     else:
         task_func = file_transfer
-
-    for bind_host in task_obj.tasklog_set.all():
-        pool.apply_async(task_func,args=(bind_host.id,task_obj.id,task_obj.content))
-
+    print('----> 1 ')
+    for tasklog_obj in task_obj.tasklog_set.all():
+        pool.apply_async(task_func,args=(tasklog_obj.id,task_obj.id,task_obj.content))
+    print('----> 2 ')
     pool.close()
     print("--------",task_obj)
     pool.join()
