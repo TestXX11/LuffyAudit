@@ -18,6 +18,7 @@ class Task(object):
     def __init__(self,request):
         self.request = request
         self.errors = []
+        self.task_data = None
 
     def is_valid(self):
         '''
@@ -48,9 +49,9 @@ class Task(object):
     def run(self):
         '''start task , and return task id'''
         task_func = getattr(self,self.task_data.get('task_type'))   # 获取相关的函数
-        task_id = task_func()
-        print('task_id',task_id)
-        return task_id
+        task_obj = task_func()
+        print('task_obj',task_obj)
+        return task_obj
 
 
     @atomic
@@ -69,7 +70,9 @@ class Task(object):
         for host_id in host_ids:
             # 创建单条记录信息
             tasklog_objs.append(
-                models.TaskLog(task_id =task_obj.id,host_user_bind_id=host_id,status=3))
+                models.TaskLog(task_id =task_obj.id,
+                               host_user_bind_id=host_id,
+                               status=3))
         # 添加到数据库
         models.TaskLog.objects.bulk_create(tasklog_objs, 100)
         # for host_id in self.task_data.get('selected_host_ids'):
@@ -77,13 +80,18 @@ class Task(object):
         #     t.start()
         # print(sys.path)
         # 拼接需要执行任务的 shell 语句  shell 脚本路径 和需要的参数
-        cmd_str = 'python3 %s %s'%(settings.MULTI_TASK_SCRIPT,task_obj.id)
+        cmd_str = "python3 %s %s"%(settings.MULTI_TASK_SCRIPT,task_obj.id)
         # cmd_str = 'ls'
         # 执行命令
-        multitask_obj = subprocess.Popen(cmd_str,stdout=subprocess.PIPE,stderr=subprocess.PIPE,shell=True)
+        print(sys.path,'cmd_str:',cmd_str)
+        multitask_obj = subprocess.Popen(cmd_str,
+                                         stdout=subprocess.PIPE,
+                                         stderr=subprocess.PIPE,
+                                         shell=True
+                                         )
         # multitask_obj = subprocess.Popen(cmd_str,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
         # print(multitask_obj.stdout.read())
-        return task_obj.id  # 返回任务 id
+        return task_obj  # 返回任务 id
 
     def run_cmd(self):
         pass

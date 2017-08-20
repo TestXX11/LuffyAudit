@@ -60,7 +60,7 @@ class Task(models.Model):
     task_type = models.SmallIntegerField(choices=task_type_choices)
     # host_user_binds = models.ManyToManyField("HostUserBind",blank=True)
     content = models.TextField("任务内容")
-    timeout = models.IntegerField('任务超时时间',default=300)
+    timeout = models.IntegerField('任务超时时间',default=50)
     account = models.ForeignKey('Account',on_delete=models.CASCADE,)
     date = models.DateTimeField(auto_now_add=True)
     # success_num = models.SmallIntegerField()

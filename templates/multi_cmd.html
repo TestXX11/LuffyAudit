@@ -104,12 +104,15 @@
             var selected_host_count = $('#host_groups ul').find(':checked').length; //  lenght  计算长度
             //console.log(selected_host_count);
             $('#selected_hosts').text(selected_host_count); // 显示到页面上
+            return selected_host_count
         }
 
         // 获取任务执行状态 并显示到页面
         function GetTaskResult(task_id, task_timeout) {
+            console.log(task_id,task_timeout);
             // start get request
             $.getJSON("{% url 'get_task_result' %}", {'task_id': task_id}, function (callback) {
+
                 console.log(callback);
 
                 var result_ele = '';
@@ -140,21 +143,28 @@
                 } else {
                     // 将所有任务设置为完成，因为已经达到任务超时
                     all_task_finished = true;// set all task to be finished ,because it 's already reached the global timeout
+
+                    $.niftyNoty({
+                        type: 'danger',
+                        container: '#task_result_panel',
+                        html: '<h4 class="alert-title">Task timed out!</h4> <p class="alert-message">The task has timed out!</p><div class="mar-top"><button type="button" class="btn btn-info" data-dismiss="noty">Close this notification</button></div>',
+                        closeBtn: false
+                    });
                 }
 
                 // 清空计时器
                 if (all_task_finished) {
-                    clearInterval((result_timer));
+                    clearInterval(result_timer);
                     console.log('timmer canceled...');
                 }
 
                 console.log('result_ele', result_ele);
-                $('#task_result').html(result_ele);    // 显示到页面
 
+                $('#task_result').html(result_ele);    // 显示到页面
                 // ser progress bar 设置进度条
-                var total_finished_percent = finished_task_count / callback.length * 100;
-                $('#task_progress').text(total_finished_percent + '%');
-                $('#task_progress').css('with', total_finished_percent + '%');
+                var total_finished_percent = parseInt(finished_task_count / callback.length * 100);
+                $('#task_progress').text(total_finished_percent + "%");
+                $('#task_progress').css("width", total_finished_percent + "%");
 
             }) // end getJson
         }
@@ -199,11 +209,11 @@
                     console.log('callback', callback);   // task id
                     var callback = JSON.parse(callback);
 
-                    GetTaskResult(callback.task_id,callback.timeout);
-                    task_timeout_counter= 0 ;
+                    GetTaskResult(callback.task_id, callback.timeout);
+                    task_timeout_counter = 0;
                     result_timer = setInterval(function () {
-                        GetTaskResult(callback.task_id,callback.timeout);
-                    }, 3000)
+                        GetTaskResult(callback.task_id, callback.timeout)
+                    }, 2000);
                 })// end post
         }
     </script>

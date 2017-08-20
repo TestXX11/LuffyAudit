@@ -142,4 +142,4 @@ LOGIN_URL = '/login/'
 SESSION_TRACKER_SCRIPT = os.path.join(BASE_DIR,'audit/backend/session_tracker.sh')
 
 # 批量执行命令 脚本路径
-MULTI_TASK_SCRIPT = os.path.join(BASE_DIR, '/multitask.py')
+MULTI_TASK_SCRIPT = os.path.join(BASE_DIR, 'multitask.py')

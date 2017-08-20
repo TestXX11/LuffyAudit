@@ -135,7 +135,7 @@ def multitask(request):
     print('task_obj',task_obj)
     if task_obj.is_valid():     # 验证是否有命令 and 主机
         result = task_obj.run()     # 执行任务
-        return HttpResponse(json.dumps({'task_id':result}))     # 返回执行结果
+        return HttpResponse(json.dumps({'task_id':result.id,'timeout':result.timeout}))     # 返回执行结果
     return HttpResponse(json.dumps(task_obj.errors))    # 返回错误信息
 
 
@@ -154,5 +154,6 @@ def multitask_result(request):
                                               'host_user_bind__host__hostname',
                                               'host_user_bind__host__ip_addr',
                                               'result'))
+    print(result)
     return HttpResponse(json.dumps(result))
 
