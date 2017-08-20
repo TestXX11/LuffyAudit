@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 from django.shortcuts import render, \
     redirect, \
     HttpResponse
-from django.contrib.auth import authenticate, login, logout     # django 登录组件
+from django.contrib.auth import authenticate, login, logout  # django 登录组件
 from django.contrib.auth.decorators import login_required
 from audit import models
 from audit import task_handler
+from django.views.decorators.csrf import csrf_exempt  # cancel csrf auth
+from django import conf  # upload or downloads path
 
 import json, \
     random, \
     string, \
-    datetime
+    datetime, \
+    os
 
 
 # Create your views here.
@@ -33,11 +36,11 @@ def acc_login(request):
         password = request.POST.get('password')
         # django 自带登录验证
         user = authenticate(username=username, password=password)
-        if user:  #  如果用户存在跳到主页面   django 自动设置 session
+        if user:  # 如果用户存在跳到主页面   django 自动设置 session
             login(request, user)  # django自带登录
-            return redirect(request.GET.get('next') or '/')         #
+            return redirect(request.GET.get('next') or '/')  #
         else:
-            error = 'Wrong username or password!'   # 帐号验证失败
+            error = 'Wrong username or password!'  # 帐号验证失败
     return render(request, 'login.html', {'error': error})
 
 
@@ -69,14 +72,14 @@ def get_host_list(request):
     :param request:
     :return:
     '''
-    gid = request.GET.get('gid')    # 获取组 id
+    gid = request.GET.get('gid')  # 获取组 id
     if gid:
         if gid == '0':  # 未分组
-            host_list = request.user.account.host_user_binds.all() # 读取组主机列表
+            host_list = request.user.account.host_user_binds.all()  # 读取组主机列表
         else:
             # host_list = request.user.account.host_groups.filter
-            group_obj = request.user.account.host_groups.get(id=gid)    # 获取组对象
-            host_list = group_obj.host_user_binds.all()             # 获取组列表
+            group_obj = request.user.account.host_groups.get(id=gid)  # 获取组对象
+            host_list = group_obj.host_user_binds.all()  # 获取组列表
         # 获取每个主机的信息,用 list 迭代,然后序列化
         data = json.dumps(list(host_list.values('id', 'host__hostname', 'host__ip_addr',
                                                 'host__port', 'host_user__username', 'host__idc__name')))
@@ -105,9 +108,9 @@ def get_token(request):
     # token_data = {}
     # 如果这个 token 存在
     if exist_token_objs:  # has token already
-        token_data = {'token': exist_token_objs[0].val}     # 通过索引取值
+        token_data = {'token': exist_token_objs[0].val}  # 通过索引取值
         # token_data['token'] = exist_token_objs[0].val
-    else:       # 如果这个 token 不存在就为这个主机生成当前用户专属的 token
+    else:  # 如果这个 token 不存在就为这个主机生成当前用户专属的 token
         token_val = ''.join(random.sample(string.ascii_lowercase + string.digits, 8))
         print(token_val)
         # 把 token 放到数据库
@@ -121,39 +124,67 @@ def get_token(request):
 
     return HttpResponse(json.dumps(token_data))
 
+
 @login_required
 def multi_cmd(request):
     '''批量命令 html'''
-    return render(request,'multi_cmd.html')
+    return render(request, 'multi_cmd.html')
+
+
+@login_required
+def multi_file_transfer(request):
+    random_str = ''.join(random.sample(string.ascii_lowercase + string.digits, 8))
+    # return render(request,'multi_file_transfer.html',{'random_str':random_str})
+    return render(request, 'multi_file_transfer.html', locals())  # @locals
+
+
+@login_required
+@csrf_exempt
+def task_file_upload(request):
+    '''
+
+    :param request:
+    :return:
+    '''
+    random_str = request.GET.get('random_str')  # get file random id
+    upload_to = "%s/%s/%s" % (conf.settings.FILE_UPLOADS, request.user.account.id, random_str)
+    if not os.path.isdir(upload_to):
+        os.makedirs(upload_to, exist_ok=True)
+    file_obj = request.FILES.get('file')  # get file obj
+    f = open("%s/%s" % (upload_to, file_obj.name), 'wb')  # create file
+    for chunk in file_obj.chunks():
+        f.write(chunk)
+    f.close()  # close file obj
+    print(file_obj)
+    return HttpResponse(json.dumps({'status': 0}))
 
 
 @login_required
 def multitask(request):
     '''调用相关函数,脚本来批量执行任务'''
-    task_obj = task_handler.Task(request)   # 实例化
-    print('request post :',request.POST)
-    print('task_obj',task_obj)
-    if task_obj.is_valid():     # 验证是否有命令 and 主机
-        result = task_obj.run()     # 执行任务
-        return HttpResponse(json.dumps({'task_id':result.id,'timeout':result.timeout}))     # 返回执行结果
-    return HttpResponse(json.dumps(task_obj.errors))    # 返回错误信息
+    task_obj = task_handler.Task(request)  # 实例化
+    print('request post :', request.POST)
+    print('task_obj', task_obj)
+    if task_obj.is_valid():  # 验证是否有命令 and 主机
+        result = task_obj.run()  # 执行任务
+        return HttpResponse(json.dumps({'task_id': result.id, 'timeout': result.timeout}))  # 返回执行结果
+    return HttpResponse(json.dumps(task_obj.errors))  # 返回错误信息
 
 
-
+@login_required
 def multitask_result(request):
     '''
     获取任务的执行状态
     :param request:
     :return:
     '''
-    task_id = request.GET.get('task_id')    # 获取任务 id
+    task_id = request.GET.get('task_id')  # 获取任务 id
 
     task_obj = models.Task.objects.get(id=task_id)
 
-    result = list(task_obj.tasklog_set.values('id','status',
+    result = list(task_obj.tasklog_set.values('id', 'status',
                                               'host_user_bind__host__hostname',
                                               'host_user_bind__host__ip_addr',
                                               'result'))
     print(result)
     return HttpResponse(json.dumps(result))
-

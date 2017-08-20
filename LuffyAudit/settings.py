@@ -143,3 +143,8 @@ SESSION_TRACKER_SCRIPT = os.path.join(BASE_DIR,'audit/backend/session_tracker.sh
 
 # 批量执行命令 脚本路径
 MULTI_TASK_SCRIPT = os.path.join(BASE_DIR, 'multitask.py')
+
+# upload or downloads path
+
+FILE_UPLOADS =os.path.join(BASE_DIR,'uploads')
+FILE_DOWNLOADS = os.path.join(BASE_DIR,'downloads')

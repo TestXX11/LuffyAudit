@@ -30,14 +30,36 @@
         <div class="col-lg-9">
             <div class="panel">
                 <div class="panel-heading">
-                    <h3 class="panel-title">CMD</h3>
+                    <h3 class="panel-title">文件传输</h3>
                 </div>
                 <div class="panel-body">
-                    <textarea class="form-control" id="cmd"></textarea>
+                    <!-- 操作类型 -->
+                    <select class="" name="transfer-type" id="" onchange="ToggleUploadEle(this);">
+                        <option value="send">发送文件到远程主机</option>
+                        <option value="get">from 远程主机下载文件</option>
+                    </select>
+                    <!-- end 操作类型 -->
+
+                    <form id="filedropzone" action="{% url 'task_file_upload' %}?random_str={{ random_str }}" class="dropzone dz-clickable">
+                        <div class="dz-default dz-message">
+                            <div class="dz-icon">
+                                <i class="demo-pli-upload-to-cloud icon-5x"></i>
+                            </div>
+                            <div>
+                                <span class="dz-text">Drop files to upload</span>
+                                <p class="text-sm text-muted">or click to pick manually</p>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <input id="remote_path" class="form-control" type="text" placeholder="远程路径">
+
                     <button style="margin: 5px 0 0 5px;" class="btn btn-pink pull-right">stop</button>
-                    <button style="margin: 5px 5px 0 0;" class="btn btn-info pull-right" onclick="PostTask('cmd')">
+                    <button style="margin: 5px 5px 0 0;" class="btn btn-info pull-right" onclick="PostTask('file_transfer')">
                         start
                     </button>
+                    <a href="" id="file-download-btn" class="btn btn-info hide">下载任务到本地</a>
                 </div>
             </div>
             {% include 'components/taskresult.html' %}
