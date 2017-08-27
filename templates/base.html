@@ -46,6 +46,10 @@
     <!--Nifty Admin [ RECOMMENDED ]-->
     <script src="/static/js/nifty.min.js"></script>
 
+    {% block extra-css %}
+
+    {% endblock %}
+
 
     <!--=================================================
 
@@ -72,9 +76,9 @@
 <!--You may remove all ID or Class names which contain "demo-", they are only used for demonstration. -->
 
 <body>
-    {% block body %}
-        <!-- your body content -->
-    {% endblock %}
+{% block body %}
+    <!-- your body content -->
+{% endblock %}
 
 </body>
 </html>
